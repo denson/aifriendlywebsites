@@ -217,8 +217,11 @@ Three things, quietly, during this tour:
 3. **You saw the trade.** Chat apps: eyes, low risk. Coding agents: hands —
    persistence, composition, automation — and real risk to manage.
 
-**Where this goes:** try the habit on a site you actually use this week. If
-it pays off, the coding-agent tier is waiting when you are — with the house
-rules from the last page.
+**Where this goes:** try the habit on a site you use this week — it works on
+any site. The obvious low-friction business use is **employee training**: a
+guided tour like this one is cheap to build, and every trainee gets a
+patient, personal guide. And when the site is a full web app wired to real
+databases, the same pattern becomes a **force multiplier** — your AI isn't
+just reading pages anymore, it's working the system with you.
 
 This tour stays open — ask your AI anything you're still wondering about.
