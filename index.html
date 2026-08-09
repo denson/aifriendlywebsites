@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>AI-Friendly Websites</title>
-  <meta name="description" content="A short guide to reading and using websites built for both humans and the AI tools they read through — starting with this one.">
+  <meta name="description" content="A guided tour of websites built for both humans and the AI tools they read through — this site included.">
   <meta name="robots" content="index,follow,max-image-preview:large">
   <link rel="canonical" href="https://denson.github.io/aifriendlywebsites/">
   <link rel="alternate" type="text/markdown" href="index.md" title="Markdown version">
@@ -15,77 +15,39 @@
   <header class="site-header">
     <div class="header-inner">
       <a class="brand" href="./">AI-Friendly Websites</a>
-      <nav aria-label="Primary"><ul><li><a href="getting-started/">Getting started</a></li><li><a href="going-further/">Going further</a></li><li><a href="agent-access/">For agents</a></li></ul></nav>
+      <nav aria-label="Primary"><ul><li><a href="tour/1-what/">Start the tour</a></li><li><a href="agent-access/">For agents</a></li></ul></nav>
     </div>
   </header>
   <main id="main">
     <article class="page-content">
       <h1 id="page-title">AI-Friendly Websites</h1>
-      <p class="summary">A short guide to reading and using websites built for both humans and the AI tools they read through — starting with this one.</p>
-      <p>This site teaches one idea and then lets you practice it on the site itself.</p>
-<p><strong>The idea:</strong> most websites are written for human eyes, and AI tools read them
-by scraping the page and guessing at the structure. An <em>AI-friendly</em> website is
-built the other way around. Every page here is authored in Markdown — the
-format AI tools read natively — and the web page you are looking at is
-generated from it. Beside every page sits its Markdown mirror, at the same
-address plus <code>index.md</code>. The mirror is the canonical version, and it can carry
-<em>more</em> than the page: context, sources, and notes written specifically for the
-AI that is helping you.</p>
-<p><strong>What that means for you:</strong> you don't browse this site instead of your AI —
-you point your AI at it, and the site cooperates.</p>
-<h2>Try it right now</h2>
-<p>Open your AI app — Claude or ChatGPT, desktop or web — and paste this:</p>
+      <p class="summary">A guided tour of websites built for both humans and the AI tools they read through — this site included.</p>
+      <p>This is a short guided tour, one screen per page. Your AI walks you through
+it; you watch, ask questions, and move on when ready.</p>
+<p><strong>To start</strong>, paste this into Claude or ChatGPT:</p>
 <blockquote>
 <p>Read https://denson.github.io/aifriendlywebsites/ and its llms.txt. If you
-can open the site in a browser I can see — an in-app browser pane, or my
-own browser through an extension you drive — open it, and make sure I can
-actually see it: bring the tab to the front if your tools allow, and if
-they don't, tell me exactly where to look (which browser window, and that
-the tab is titled "AI-Friendly Websites"). Suggest putting it on a second
-monitor or side by side with this chat. Then walk me through it while I
-look. If you can't open a browser at all, tell me what app, plan,
-extension, or setting I would need and help me set it up — then give me
-the tour from the pages themselves. When the tour is done, leave the site
-open and debrief me: what just happened mechanically, how I can use this
-same approach on any website, and what I would gain from learning more.</p>
+can open the site in a browser I can see — an in-app pane, or my own
+browser through an extension you drive — open it, bring the tab to the
+front if you can (otherwise tell me where to look: the tab is titled
+"AI-Friendly Websites"), and suggest a second monitor or side-by-side with
+this chat. Then take me through the tour ONE PAGE AT A TIME using each
+page's Next link: for each page, show it, explain its point in a couple of
+sentences, tell me anything its markdown mirror told you that is not on my
+screen, and check that I'm ready before moving on. If you can't open a
+browser at all, help me work out what app, plan, extension, or setting I
+need — and tour me from the mirrors meanwhile. Finish on the last tour
+page, leave it open, and give me the debrief it describes.</p>
 </blockquote>
-<p>Your AI will find the machine-readable index (<a href="llms.txt">llms.txt</a>), the
-Markdown mirrors, and the agent notes, and explain the site back to you. That
-round trip — you ask, your AI reads the friendly version, you get a grounded
-answer — is the whole skill this site teaches.</p>
-<p><strong>Why the browser request is in <em>your</em> paste:</strong> your AI takes instructions
-from you, not from websites. A site cannot tell your AI to open anything —
-that is a security feature, and it protects you from malicious pages trying
-to hijack your agent. So anything you want your AI to <em>do</em> with a site rides
-in your own message; the site's job is to be worth reading when it gets
-there. <a href="getting-started/">Getting started</a> has the settings notes for
-enabling the in-app browser in each app.</p>
-<h2>Two paths from here</h2>
-<ul>
-<li><strong><a href="getting-started/">Getting started</a></strong> — for everyone: using AI-friendly
-  sites from the apps you already have, with the built-in browsing your AI
-  offers. Low risk, nothing to install.</li>
-<li><strong><a href="going-further/">Going further</a></strong> — for advanced users: coding agents like
-  Claude Code and OpenAI's Codex that can fetch, save, and <em>act</em> on what they
-  read. More power, and genuinely more risk — the page is honest about both.</li>
-</ul>
-<p>This is a temporary onboarding instance for colleagues. It may be taken down
-without notice.</p>
+<p>Prefer reading alone? Use the <strong>Next</strong> link below.</p>
+      <nav class="pager" aria-label="Tour"><span class="pager-slot"></span><a class="pager-next" href="tour/1-what/">What is an AI-friendly website? →</a></nav>
     </article>
   </main>
   <footer class="site-footer">
     <div class="footer-inner">
-      <p>AI-Friendly Websites is a short guide to reading and using websites built for
-      both humans and AI tools. Temporary onboarding instance.</p>
-      <ul>
-        <li><a href="agent-access/">Agent access</a></li>
-        <li><a href="llms.txt">llms.txt</a></li>
-        <li><a href="sitemap.xml">Sitemap</a></li>
-      </ul>
-      <p class="page-updated">Published <time datetime="2026-08-09T22:59Z">August 9, 2026 at 22:59 UTC</time>. Last updated <time datetime="2026-08-09T23:28Z">August 9, 2026 at 23:28 UTC</time>. Times come from the commit history for this page and can be checked against it.</p>
-      <p class="agent-note"><strong>Interpretation note:</strong> Every page on
-      this site has a Markdown mirror at <code>index.md</code> beside it. The
-      mirror is the machine-readable canon; the HTML is the human view.</p>
+      <a href="agent-access/">Agent access</a> ·
+      <a href="llms.txt">llms.txt</a> ·
+      <a href="sitemap.xml">Sitemap</a> · <span class="page-updated">Updated <time datetime="2026-08-09T23:38Z">August 9, 2026 at 23:38 UTC</time> (from git)</span>
     </div>
   </footer>
 </body>

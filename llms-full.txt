@@ -54,228 +54,171 @@ Each page's `<head>` advertises its mirror with
 
 ---
 
-<!-- Canonical: https://denson.github.io/aifriendlywebsites/getting-started/ -->
-
-# Getting started — read the web with your AI
-
-Everything on this page works in the AI apps you already have: **Claude**
-(web, desktop, or mobile) or **ChatGPT** (web, desktop, or mobile). Nothing to
-install, nothing to configure, and nothing here can touch your files or your
-accounts — at this level your AI can only *read*.
-
-## The one habit
-
-When a website matters to you, don't just read it yourself — hand it to your
-AI and ask your question. Paste the address into the chat:
-
-> Read https://denson.github.io/aifriendlywebsites/getting-started/ and
-> summarize it for someone who has never used an AI to browse.
-
-On an ordinary website, your AI scrapes the human page and does its best. On
-an AI-friendly site like this one it finds something better: a Markdown mirror
-of every page (this page's mirror is at [index.md](index.md)) and a site index
-at [llms.txt](../llms.txt) that says what the site is and how to interpret it.
-The answer you get back is grounded in what the site actually says.
-
-## What to ask for
-
-The point of handing a page to your AI is not summary — it's *your* question
-against *their* content:
-
-- "Does this apply to my situation? Here's my situation: …"
-- "Compare what this page says with what that other page says."
-- "Explain this to me like I'm new to the topic."
-- "What does this site say it will NOT do?"
-
-An AI-friendly site helps here in a specific way: the mirror can carry an
-appendix written *for your AI* — background and context that isn't on the
-human page — so the answer you get is better than what you'd assemble reading
-alone.
-
-## How to tell whether a site is AI-friendly
-
-Three quick checks your AI can run for you:
-
-1. Ask it to fetch `<site>/llms.txt`. If it exists, the site publishes a
-   machine-readable index.
-2. Ask whether the page offers a Markdown version (this site links it in every
-   page footer and in the page's `<head>`).
-3. Ask your AI whether the page it fetched actually contained the content, or
-   whether it had to fight through scripts and popups to find it.
-
-If all three fail, the site still works with your AI — just with more guessing
-and less grounding.
-
-## Seeing the site while your AI reads it
-
-Reading the mirror is your AI's half; you may want the human half on screen
-too. Some apps can open websites in an **in-app browser** — a pane inside the
-AI app where you and your AI look at the same page.
-
-One thing to understand: **the request has to come from you.** Your AI takes
-instructions from your messages, not from websites — a site cannot make your
-AI open anything, which is a security feature protecting you from malicious
-pages. So if you want the shared view, say so in your message:
-
-> If you have an in-app browser, open this site in it and walk me through it.
-> If you can't, tell me what I'd need to enable and help me set it up.
-
-Your app may show its own approval prompt the first time your AI opens a
-site — that gate belongs to the app, and it's there to keep "open a website"
-your decision even when you've delegated the driving.
-
-"A browser your AI can show you" comes in two shapes, and which one you get
-depends on the app. Where this lives as of **August 9, 2026** (these move —
-if the buttons aren't where we say, ask your AI to check the vendor's current
-docs):
-
-- **Claude Cowork (the desktop app's agent mode):** there is no in-app pane —
-  Cowork browses by driving **your own Chrome** through the *Claude in
-  Chrome* extension. Expect the site to open in your real browser and expect
-  a permission prompt: your AI is acting inside your Chrome, and that consent
-  step is deliberate. This is the normal Cowork experience, not a fallback.
-  **Known catch:** the new tab may open *without focus* — if nothing seems
-  to happen, check your Chrome window for a tab named after the site. Once
-  found, put it where you can watch it: a second monitor if you have one, or
-  snapped side by side with the Claude window.
-- **Claude Code desktop** (paid plans): a true **in-app browser pane**,
-  toggled with **Ctrl+Shift+B** (Windows) or **Cmd+Shift+B** (Mac). Runs
-  sandboxed, with explicit approval required for consequential actions.
-- **Plain Claude apps and claude.ai:** read pages without any visible
-  browsing surface — normal, and enough for everything on this page.
-- **ChatGPT:** in the desktop app, the **Work** mode (the choice next to
-  Chat, available on all plans) is what browses and acts — it plans first,
-  shows you the plan, and checks in for approvals. Plain Chat can read pages
-  without opening anything.
-
-If no browser appears when you expect one, it's usually the app tier or a
-setting, not a broken site — ask your AI to check the current requirements
-for your app and plan.
-
-## When you're ready for more
-
-If you're comfortable in a terminal, or you want your AI to *do* things with
-what it reads — save files, build on the content, automate the reading —
-continue to [Going further](../going-further/). Read the risk section there
-before you start; the power step is real on both counts.
-
----
-
-<!-- Canonical: https://denson.github.io/aifriendlywebsites/going-further/ -->
-
-# Going further — coding agents, more power, more risk
-
-The basic tier gives your AI eyes. This tier gives it hands.
-
-**Claude Code** (Anthropic) and **Codex** (OpenAI) are coding agents: AI
-sessions that run with access to a real computer — usually yours. They can
-fetch this site the same way the chat apps do, but they can also *keep* what
-they read: save the Markdown mirrors to disk, diff a page against the version
-they saved last week, pull [llms-full.txt](../llms-full.txt) (every page in
-one file) into a project, or wire a site's content into something they're
-building for you.
-
-## What the power buys you
-
-- **Persistence.** "Save the mirrors of this site into my notes folder and
-  keep them updated" — a chat app can't; a coding agent can.
-- **Composition.** "Read this site's guide and apply it to my project" — the
-  agent reads the friendly version and then edits your files accordingly.
-- **Automation.** "Every morning, fetch the llms.txt of these three sites and
-  tell me what changed."
-
-AI-friendly sites are what make this reliable. An agent automating against
-scraped HTML breaks when the design changes; one reading published Markdown
-mirrors is reading a stable contract.
-
-## What the power costs — read this part
-
-A coding agent runs with real permissions on a real machine. The risks are not
-hypothetical:
-
-- **It can change things.** Files, configuration, anything its permissions
-  reach. A misunderstood instruction executes instead of just reading wrong.
-- **Web content becomes input to a system that acts.** A malicious page can
-  try to smuggle instructions to your agent ("prompt injection"). Good agents
-  treat page content as data, not commands — but the attack class is real, and
-  it is the reason this tier is not the default.
-- **Credentials amplify everything.** An agent that can push to your repos or
-  call your cloud accounts turns a small mistake into a big one.
-
-House rules if you adopt this tier: run agents in a directory you can afford
-to lose, review what they did before you trust it, give them the fewest
-permissions that work, and never paste secrets into a session.
-
-## Try it
-
-From a Claude Code or Codex session:
-
-> Fetch https://denson.github.io/aifriendlywebsites/llms.txt, then fetch the
-> Markdown mirror of each page it lists, and save them under ./aifw-mirrors/.
-> Tell me what the appendix of each mirror says that the pages don't.
-
-That exercise demonstrates the whole architecture in one pass: the index, the
-mirrors, the agent-only appendices — and the fact that your agent just did
-something a chat app cannot.
-
----
-
 <!-- Canonical: https://denson.github.io/aifriendlywebsites/ -->
 
 # AI-Friendly Websites
 
-This site teaches one idea and then lets you practice it on the site itself.
+This is a short guided tour, one screen per page. Your AI walks you through
+it; you watch, ask questions, and move on when ready.
 
-**The idea:** most websites are written for human eyes, and AI tools read them
-by scraping the page and guessing at the structure. An *AI-friendly* website is
-built the other way around. Every page here is authored in Markdown — the
-format AI tools read natively — and the web page you are looking at is
-generated from it. Beside every page sits its Markdown mirror, at the same
-address plus `index.md`. The mirror is the canonical version, and it can carry
-*more* than the page: context, sources, and notes written specifically for the
-AI that is helping you.
-
-**What that means for you:** you don't browse this site instead of your AI —
-you point your AI at it, and the site cooperates.
-
-## Try it right now
-
-Open your AI app — Claude or ChatGPT, desktop or web — and paste this:
+**To start**, paste this into Claude or ChatGPT:
 
 > Read https://denson.github.io/aifriendlywebsites/ and its llms.txt. If you
-> can open the site in a browser I can see — an in-app browser pane, or my
-> own browser through an extension you drive — open it, and make sure I can
-> actually see it: bring the tab to the front if your tools allow, and if
-> they don't, tell me exactly where to look (which browser window, and that
-> the tab is titled "AI-Friendly Websites"). Suggest putting it on a second
-> monitor or side by side with this chat. Then walk me through it while I
-> look. If you can't open a browser at all, tell me what app, plan,
-> extension, or setting I would need and help me set it up — then give me
-> the tour from the pages themselves. When the tour is done, leave the site
-> open and debrief me: what just happened mechanically, how I can use this
-> same approach on any website, and what I would gain from learning more.
+> can open the site in a browser I can see — an in-app pane, or my own
+> browser through an extension you drive — open it, bring the tab to the
+> front if you can (otherwise tell me where to look: the tab is titled
+> "AI-Friendly Websites"), and suggest a second monitor or side-by-side with
+> this chat. Then take me through the tour ONE PAGE AT A TIME using each
+> page's Next link: for each page, show it, explain its point in a couple of
+> sentences, tell me anything its markdown mirror told you that is not on my
+> screen, and check that I'm ready before moving on. If you can't open a
+> browser at all, help me work out what app, plan, extension, or setting I
+> need — and tour me from the mirrors meanwhile. Finish on the last tour
+> page, leave it open, and give me the debrief it describes.
 
-Your AI will find the machine-readable index ([llms.txt](llms.txt)), the
-Markdown mirrors, and the agent notes, and explain the site back to you. That
-round trip — you ask, your AI reads the friendly version, you get a grounded
-answer — is the whole skill this site teaches.
+Prefer reading alone? Use the **Next** link below.
 
-**Why the browser request is in *your* paste:** your AI takes instructions
-from you, not from websites. A site cannot tell your AI to open anything —
-that is a security feature, and it protects you from malicious pages trying
-to hijack your agent. So anything you want your AI to *do* with a site rides
-in your own message; the site's job is to be worth reading when it gets
-there. [Getting started](getting-started/) has the settings notes for
-enabling the in-app browser in each app.
+---
 
-## Two paths from here
+<!-- Canonical: https://denson.github.io/aifriendlywebsites/tour/1-what/ -->
 
-- **[Getting started](getting-started/)** — for everyone: using AI-friendly
-  sites from the apps you already have, with the built-in browsing your AI
-  offers. Low risk, nothing to install.
-- **[Going further](going-further/)** — for advanced users: coding agents like
-  Claude Code and OpenAI's Codex that can fetch, save, and *act* on what they
-  read. More power, and genuinely more risk — the page is honest about both.
+# What is an AI-friendly website?
 
-This is a temporary onboarding instance for colleagues. It may be taken down
-without notice.
+Most websites are written for human eyes. When an AI reads one, it scrapes
+the page and guesses at the structure — and loses whatever the design buried.
+
+An **AI-friendly website** is built the other way around. Every page starts
+as Markdown — the format AI tools read natively — and the web page you see is
+generated *from* it. The human page is the subset; the AI's version is the
+canon.
+
+This site is built that way, which makes it the demo: the page you are
+reading right now has a machine-readable twin your AI is reading at the same
+time.
+
+---
+
+<!-- Canonical: https://denson.github.io/aifriendlywebsites/tour/2-mirrors/ -->
+
+# How your AI reads this site
+
+Three files do the work:
+
+- **The mirror.** Every page has a Markdown twin at the same address plus
+  `index.md`. It contains everything on the page — and often an appendix
+  written only for your AI.
+- **The index.** [llms.txt](../../llms.txt) lists every page and tells your
+  AI how to interpret the site.
+- **The full corpus.** [llms-full.txt](../../llms-full.txt) is the whole
+  site in one file, for tools that want it all at once.
+
+The appendix is the interesting part: background the site gives your AI so
+it can explain things *for you specifically* — not text meant for the screen.
+
+**Try it:** ask your AI what this page's appendix told it.
+
+---
+
+<!-- Canonical: https://denson.github.io/aifriendlywebsites/tour/3-habit/ -->
+
+# The habit
+
+When a website matters to you, don't just read it — hand it to your AI with
+*your* question:
+
+- "Does this apply to my situation? Here's my situation: …"
+- "Compare what this page says with that other page."
+- "Explain this like I'm new to the topic."
+- "What does this site say it will *not* do?"
+
+The point isn't summary. It's your question against their content, answered
+from what the site actually says instead of what your AI half-remembers.
+
+This works on **every** website. AI-friendly sites just answer better,
+because your AI reads their canon instead of scraping their layout.
+
+---
+
+<!-- Canonical: https://denson.github.io/aifriendlywebsites/tour/4-browsers/ -->
+
+# The shared view
+
+You may be looking at this page in one right now. Where each app puts it, as
+of **August 9, 2026**:
+
+- **Claude Cowork** — drives *your own Chrome* via the Claude in Chrome
+  extension. The new tab may open **without focus**: if nothing seems to
+  happen, look for a tab named after this site.
+- **Claude Code desktop** — a true in-app pane (Ctrl+Shift+B / Cmd+Shift+B),
+  sandboxed, approvals on consequential actions.
+- **ChatGPT desktop** — choose **Work** next to Chat; it browses in its own
+  agent view, plan shown first.
+- **Plain chat apps** — no visible browsing; your AI reads pages invisibly.
+  Fine for everything this site teaches.
+
+Best arrangement: this site on a second monitor, or side by side with your
+chat window.
+
+---
+
+<!-- Canonical: https://denson.github.io/aifriendlywebsites/tour/5-power/ -->
+
+# More power
+
+Chat apps give your AI eyes. Coding agents — **Claude Code** and OpenAI's
+**Codex** — give it hands. They read this site the same way, but they can
+also *keep* and *use* what they read:
+
+- **Persistence** — "save this site's mirrors into my notes and keep them
+  updated."
+- **Composition** — "read this site's guide and apply it to my project."
+- **Automation** — "each morning, fetch these three sites' llms.txt and tell
+  me what changed."
+
+AI-friendly sites make this reliable: an agent automating against scraped
+HTML breaks when the design changes; one reading published Markdown is
+reading a stable contract.
+
+---
+
+<!-- Canonical: https://denson.github.io/aifriendlywebsites/tour/6-risk/ -->
+
+# The honest trade
+
+A coding agent runs with real permissions on a real machine. The risks are
+real too:
+
+- **It can change things** — files, configuration, anything its permissions
+  reach. A misunderstood instruction *executes* instead of just reading
+  wrong.
+- **Pages become input to a system that acts.** Malicious sites can try to
+  smuggle instructions to your agent ("prompt injection"). Good agents treat
+  page content as data, not commands — but the attack class is real.
+- **Credentials amplify mistakes.** An agent that can push code or touch
+  cloud accounts turns a small error into a big one.
+
+House rules: run agents where you can afford to lose things, review before
+you trust, grant the fewest permissions that work, never paste secrets.
+
+---
+
+<!-- Canonical: https://denson.github.io/aifriendlywebsites/tour/7-debrief/ -->
+
+# What just happened
+
+Three things, quietly, during this tour:
+
+1. **Your AI read the canon while you read the pages.** Every page you saw,
+   it saw as Markdown — including appendices written only for it. Ask it
+   what the appendices added.
+2. **You practiced the habit.** Paste a URL, ask your question, get an
+   answer grounded in what the site actually says. That works on any
+   website, today.
+3. **You saw the trade.** Chat apps: eyes, low risk. Coding agents: hands —
+   persistence, composition, automation — and real risk to manage.
+
+**Where this goes:** try the habit on a site you actually use this week. If
+it pays off, the coding-agent tier is waiting when you are — with the house
+rules from the last page.
+
+This tour stays open — ask your AI anything you're still wondering about.

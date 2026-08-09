@@ -15,8 +15,8 @@ body {
   font-family: Georgia, "Times New Roman", serif;
   color: var(--ink);
   background: var(--paper);
-  line-height: 1.65;
-  font-size: 1.06rem;
+  line-height: 1.5;
+  font-size: 0.98rem;
 }
 
 .skip-link {
@@ -38,7 +38,7 @@ body {
 .header-inner {
   max-width: var(--max);
   margin: 0 auto;
-  padding: 1rem 1.25rem;
+  padding: 0.55rem 1.25rem;
   display: flex;
   flex-wrap: wrap;
   gap: 0.75rem 1.5rem;
@@ -71,18 +71,20 @@ body {
 main {
   max-width: var(--max);
   margin: 0 auto;
-  padding: 2rem 1.25rem 3rem;
+  padding: 0.9rem 1.25rem 1.2rem;
 }
 
-h1 { font-size: 2rem; line-height: 1.2; margin: 0 0 0.5rem; }
-.summary { color: var(--muted); font-size: 1.12rem; margin-top: 0; }
-h2 { margin-top: 2.2rem; font-size: 1.35rem; border-bottom: 1px solid var(--rule); padding-bottom: 0.25rem; }
+h1 { font-size: 2rem; line-height: 1.2; margin: 0 0 0.3rem; }
+.summary { color: var(--muted); font-size: 0.92rem; margin-top: 0; margin-bottom: 0.7rem; }
+h2 { margin-top: 1.2rem; font-size: 1.12rem; border-bottom: 1px solid var(--rule); padding-bottom: 0.25rem; }
 
 a { color: var(--accent); }
 
 blockquote {
-  margin: 1.25rem 0;
-  padding: 0.75rem 1.1rem;
+  margin: 0.8rem 0;
+  padding: 0.55rem 0.9rem;
+  font-size: 0.9rem;
+  line-height: 1.45;
   background: var(--panel);
   border-left: 4px solid var(--accent);
   font-style: normal;
@@ -138,3 +140,23 @@ th { background: var(--panel); }
   body { font-size: 1rem; }
   h1 { font-size: 1.6rem; }
 }
+
+.pager {
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+  margin-top: 1.1rem;
+  padding-top: 0.6rem;
+  border-top: 1px solid var(--rule);
+  font-family: "Segoe UI", system-ui, sans-serif;
+}
+.pager a { text-decoration: none; font-weight: 600; }
+.pager a:hover { text-decoration: underline; }
+.pager-slot { flex: 1; }
+main { padding-top: 0.9rem; }
+main p, main ul { margin: 0.55rem 0; }
+main li { margin: 0.2rem 0; }
+h1 { font-size: 1.45rem; }
+.footer-inner { padding: 0.9rem 1.25rem 1.1rem; }
+.footer-inner ul { margin: 0.3rem 0; }
+.page-updated { margin: 0.3rem 0 0; }

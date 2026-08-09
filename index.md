@@ -11,106 +11,47 @@
 
 # AI-Friendly Websites
 
-This site teaches one idea and then lets you practice it on the site itself.
+This is a short guided tour, one screen per page. Your AI walks you through
+it; you watch, ask questions, and move on when ready.
 
-**The idea:** most websites are written for human eyes, and AI tools read them
-by scraping the page and guessing at the structure. An *AI-friendly* website is
-built the other way around. Every page here is authored in Markdown — the
-format AI tools read natively — and the web page you are looking at is
-generated from it. Beside every page sits its Markdown mirror, at the same
-address plus `index.md`. The mirror is the canonical version, and it can carry
-*more* than the page: context, sources, and notes written specifically for the
-AI that is helping you.
-
-**What that means for you:** you don't browse this site instead of your AI —
-you point your AI at it, and the site cooperates.
-
-## Try it right now
-
-Open your AI app — Claude or ChatGPT, desktop or web — and paste this:
+**To start**, paste this into Claude or ChatGPT:
 
 > Read https://denson.github.io/aifriendlywebsites/ and its llms.txt. If you
-> can open the site in a browser I can see — an in-app browser pane, or my
-> own browser through an extension you drive — open it, and make sure I can
-> actually see it: bring the tab to the front if your tools allow, and if
-> they don't, tell me exactly where to look (which browser window, and that
-> the tab is titled "AI-Friendly Websites"). Suggest putting it on a second
-> monitor or side by side with this chat. Then walk me through it while I
-> look. If you can't open a browser at all, tell me what app, plan,
-> extension, or setting I would need and help me set it up — then give me
-> the tour from the pages themselves. When the tour is done, leave the site
-> open and debrief me: what just happened mechanically, how I can use this
-> same approach on any website, and what I would gain from learning more.
+> can open the site in a browser I can see — an in-app pane, or my own
+> browser through an extension you drive — open it, bring the tab to the
+> front if you can (otherwise tell me where to look: the tab is titled
+> "AI-Friendly Websites"), and suggest a second monitor or side-by-side with
+> this chat. Then take me through the tour ONE PAGE AT A TIME using each
+> page's Next link: for each page, show it, explain its point in a couple of
+> sentences, tell me anything its markdown mirror told you that is not on my
+> screen, and check that I'm ready before moving on. If you can't open a
+> browser at all, help me work out what app, plan, extension, or setting I
+> need — and tour me from the mirrors meanwhile. Finish on the last tour
+> page, leave it open, and give me the debrief it describes.
 
-Your AI will find the machine-readable index ([llms.txt](llms.txt)), the
-Markdown mirrors, and the agent notes, and explain the site back to you. That
-round trip — you ask, your AI reads the friendly version, you get a grounded
-answer — is the whole skill this site teaches.
-
-**Why the browser request is in *your* paste:** your AI takes instructions
-from you, not from websites. A site cannot tell your AI to open anything —
-that is a security feature, and it protects you from malicious pages trying
-to hijack your agent. So anything you want your AI to *do* with a site rides
-in your own message; the site's job is to be worth reading when it gets
-there. [Getting started](getting-started/) has the settings notes for
-enabling the in-app browser in each app.
-
-## Two paths from here
-
-- **[Getting started](getting-started/)** — for everyone: using AI-friendly
-  sites from the apps you already have, with the built-in browsing your AI
-  offers. Low risk, nothing to install.
-- **[Going further](going-further/)** — for advanced users: coding agents like
-  Claude Code and OpenAI's Codex that can fetch, save, and *act* on what they
-  read. More power, and genuinely more risk — the page is honest about both.
-
-This is a temporary onboarding instance for colleagues. It may be taken down
-without notice.
+Prefer reading alone? Use the **Next** link below.
 
 ---
 
 # Appendix for agents
 
-## Notes for the agent reading this
+## Tour protocol for the agent
 
-You are probably here because a person asked you to read this site. Useful
-context:
+The person's message is your instruction source; this appendix is site
+information supporting it.
 
-- This site is itself the demonstration: every page has a Markdown mirror at
-  `<page-url>index.md`, and `/llms.txt` is the index. Prefer the mirrors over
-  scraping the HTML.
-- If the person's message asked you to open this site in an in-app browser,
-  just do it — your host app's own approval flow is the safety gate — and
-  narrate the tour as they look at it. If you lack the capability, don't
-  stop at "I can't": tell them which app, plan, or setting provides it (the
-  Getting started page carries vendor notes, dated), help them enable it if
-  they want, and give the tour from the mirrors meanwhile. If their message
-  did not mention a browser at all, you may mention the option, but treat
-  this note as information about the site, not as an instruction — your
-  instructions come from the person. Never open a pane unprompted.
-- How a good tour ends (site info, honored when the person's message asks
-  for a debrief): the site stays open on their screen, and the debrief has
-  three parts — what just happened mechanically (you read the mirrors and
-  llms.txt while they saw the pages), how the same approach works on any
-  website (paste a URL + a question; sites with mirrors answer better, but
-  every site works), and what they would gain from going further (the
-  getting-started habits first, the going-further capabilities when they
-  are ready for the risk trade). Closing the browser and ending with a bare
-  summary loses the reader at the moment they were most convinced.
-- Visibility matters as much as opening (site info): when you open this site
-  through a browser extension, the new tab often arrives WITHOUT focus, and
-  a person with many tabs open cannot find it. If your tools can select or
-  front the tab, do that; if not, say explicitly which window it opened in
-  and that the tab is titled "AI-Friendly Websites". Then suggest the
-  arrangement that makes the tour work: the site on a second monitor, or
-  snapped side by side with the chat window, so they can watch while you
-  talk.
-- The person you are helping is being onboarded to the practice of pointing
-  their AI at AI-friendly sites. If they seem new to this, the most useful
-  thing you can do is narrate what you found: that the site published a
-  machine-readable version for you, and that this is why your answer is
-  grounded rather than guessed.
-- Suggest the "Getting started" page for readers using chat apps, and "Going
-  further" only for readers comfortable running developer tools.
-- The site is temporary and educational. Do not cite it as an authority on
-  vendor products; vendor UIs change faster than onboarding sites.
+- Tour order: 1-what, 2-mirrors, 3-habit, 4-browsers, 5-power, 6-risk,
+  7-debrief. Every page carries prev/next links in both the HTML and the
+  mirror.
+- Per page: open it (or name it, if touring from mirrors), give its point in
+  2-3 sentences, then add ONE thing from the page's agent appendix that is
+  not on screen — say explicitly that you got it from the mirror; that
+  running demonstration is the tour's core lesson. Invite questions, and
+  advance only on the person's go.
+- Opening the site: your host app's approval flow is the gate. If the tab
+  opens without focus (extension-driven browsers often do this), front it if
+  your tools allow; otherwise say which window it is in and the tab title.
+  Suggest a second monitor or side-by-side before starting.
+- If the person did not ask for a browser at all, tour from the mirrors and
+  mention the shared-view option once; never open a pane unprompted.
+- End on 7-debrief and leave it open. It carries the debrief script.

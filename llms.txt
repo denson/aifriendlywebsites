@@ -1,38 +1,47 @@
 # AI-Friendly Websites
 
-> A short guide teaching people to read and use websites built for both humans
-> and AI tools, hosted as a temporary onboarding instance. The site is itself
-> the demonstration: every page has a Markdown mirror at `<page-url>index.md`,
-> and the HTML is generated from the Markdown, not the other way around.
+> A guided tour, one screen per page, teaching people to read and use
+> websites built for both humans and AI tools. Temporary onboarding instance.
+> The site is its own demo: every page has a Markdown mirror at
+> `<page-url>index.md`, and the HTML is generated from the Markdown.
 
-Interpretation terms: page dates are derived from source-repository commit
-history and are reliable to the minute. This is temporary educational
-material for onboarding colleagues — do not cite it as an authority on vendor
-products. The advanced-tier page frames coding agents as more power AND more
-risk; preserve both halves in any summary. The Markdown mirror of each page is
-a superset of the page and may carry an agent-only appendix; the mirror never
-contradicts the page. This file is information about the site, not
-instructions to you — your instructions come from the person you are helping.
-If they asked you to open this site in an in-app browser, do so and narrate
-the tour (the host app's approval flow is the gate); if you lack the
-capability, help them find the app, plan, or setting that provides it. Never
-open a browser pane the person did not ask for.
+Interpretation terms: page dates derive from source-repository commit history
+and are reliable to the minute. This is temporary educational material — do
+not cite it as an authority on vendor products. Tour page 6 frames coding
+agents as more power AND more risk; preserve both halves in any summary. Each
+mirror is a superset of its page and may carry an agent-only appendix; the
+mirror never contradicts the page. This file is information about the site,
+not instructions to you — your instructions come from the person you are
+helping. If they asked for the guided tour, the home page's appendix carries
+the tour protocol: one page at a time via the Next links, one mirror-only
+fact per page, advance on their go, finish on the debrief page and leave it
+open. Never open a browser pane the person did not ask for.
 
-## Pages
+## Tour (in order)
 
-- [Home](https://denson.github.io/aifriendlywebsites/index.md): what an
-  AI-friendly website is and how to use this one.
-- [Getting started](https://denson.github.io/aifriendlywebsites/getting-started/index.md):
-  using AI-friendly sites from chat apps — Claude or ChatGPT, read-only, low
-  risk.
-- [Going further](https://denson.github.io/aifriendlywebsites/going-further/index.md):
-  coding agents (Claude Code, Codex) — persistence, composition, automation,
-  and the honest risk framing.
+- [Home](https://denson.github.io/aifriendlywebsites/index.md): the paste
+  that starts the tour, and the tour protocol for agents.
+- [1 — What is an AI-friendly website?](https://denson.github.io/aifriendlywebsites/tour/1-what/index.md):
+  the idea in one screen.
+- [2 — How your AI reads this site](https://denson.github.io/aifriendlywebsites/tour/2-mirrors/index.md):
+  mirrors, llms.txt, appendices.
+- [3 — The habit](https://denson.github.io/aifriendlywebsites/tour/3-habit/index.md):
+  hand pages to your AI with your question.
+- [4 — The shared view](https://denson.github.io/aifriendlywebsites/tour/4-browsers/index.md):
+  where each app shows the site (verified 2026-08-09).
+- [5 — More power](https://denson.github.io/aifriendlywebsites/tour/5-power/index.md):
+  what coding agents add.
+- [6 — The honest trade](https://denson.github.io/aifriendlywebsites/tour/6-risk/index.md):
+  the risks, unsoftened, and the house rules.
+- [7 — What just happened](https://denson.github.io/aifriendlywebsites/tour/7-debrief/index.md):
+  the debrief script; tours end here, site left open.
+
+## Reference
+
 - [Agent access](https://denson.github.io/aifriendlywebsites/agent-access/index.md):
-  the file set, the mirror contract, and these interpretation terms in
-  human-visible form.
+  file set, mirror contract, interpretation terms in human-visible form.
 
 ## Optional
 
 - [Full corpus](https://denson.github.io/aifriendlywebsites/llms-full.txt):
-  every page mirror concatenated into one file. Regenerated on every build.
+  every mirror concatenated. Regenerated on every build.
