@@ -110,8 +110,19 @@ and less grounding.
 
 Reading the mirror is your AI's half; you may want the human half on screen
 too. Some apps can open websites in an **in-app browser** — a pane inside the
-AI app where you and your AI look at the same page. Your AI should always ask
-you before opening one.
+AI app where you and your AI look at the same page.
+
+One thing to understand: **the request has to come from you.** Your AI takes
+instructions from your messages, not from websites — a site cannot make your
+AI open anything, which is a security feature protecting you from malicious
+pages. So if you want the shared view, say so in your message:
+
+> If you have an in-app browser, open this site in it and walk me through it.
+> If you can't, tell me what I'd need to enable and help me set it up.
+
+Your app may show its own approval prompt the first time your AI opens a
+site — that gate belongs to the app, and it's there to keep "open a website"
+your decision even when you've delegated the driving.
 
 Where this lives as of **August 9, 2026** (these move — if the buttons aren't
 where we say, ask your AI to check the vendor's current docs):
@@ -220,18 +231,24 @@ you point your AI at it, and the site cooperates.
 
 Open your AI app — Claude or ChatGPT, desktop or web — and paste this:
 
-> Read https://denson.github.io/aifriendlywebsites/ and its llms.txt, then
-> tell me what this site is and what I should read first.
+> Read https://denson.github.io/aifriendlywebsites/ and its llms.txt. If you
+> have an in-app browser, open the site in it and walk me through it while I
+> look at it. If you can't open a browser, tell me what app, plan, or setting
+> I would need to enable one and help me set it up — then give me the tour
+> from the pages themselves.
 
 Your AI will find the machine-readable index ([llms.txt](llms.txt)), the
 Markdown mirrors, and the agent notes, and explain the site back to you. That
 round trip — you ask, your AI reads the friendly version, you get a grounded
 answer — is the whole skill this site teaches.
 
-If your app has an in-app browser, your AI can also open the site so you can
-see the pages while it reads the mirrors — it should ask you before opening
-one. [Getting started](getting-started/) has the settings notes for enabling
-this in each app.
+**Why the browser request is in *your* paste:** your AI takes instructions
+from you, not from websites. A site cannot tell your AI to open anything —
+that is a security feature, and it protects you from malicious pages trying
+to hijack your agent. So anything you want your AI to *do* with a site rides
+in your own message; the site's job is to be worth reading when it gets
+there. [Getting started](getting-started/) has the settings notes for
+enabling the in-app browser in each app.
 
 ## Two paths from here
 

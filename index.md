@@ -29,18 +29,24 @@ you point your AI at it, and the site cooperates.
 
 Open your AI app — Claude or ChatGPT, desktop or web — and paste this:
 
-> Read https://denson.github.io/aifriendlywebsites/ and its llms.txt, then
-> tell me what this site is and what I should read first.
+> Read https://denson.github.io/aifriendlywebsites/ and its llms.txt. If you
+> have an in-app browser, open the site in it and walk me through it while I
+> look at it. If you can't open a browser, tell me what app, plan, or setting
+> I would need to enable one and help me set it up — then give me the tour
+> from the pages themselves.
 
 Your AI will find the machine-readable index ([llms.txt](llms.txt)), the
 Markdown mirrors, and the agent notes, and explain the site back to you. That
 round trip — you ask, your AI reads the friendly version, you get a grounded
 answer — is the whole skill this site teaches.
 
-If your app has an in-app browser, your AI can also open the site so you can
-see the pages while it reads the mirrors — it should ask you before opening
-one. [Getting started](getting-started/) has the settings notes for enabling
-this in each app.
+**Why the browser request is in *your* paste:** your AI takes instructions
+from you, not from websites. A site cannot tell your AI to open anything —
+that is a security feature, and it protects you from malicious pages trying
+to hijack your agent. So anything you want your AI to *do* with a site rides
+in your own message; the site's job is to be worth reading when it gets
+there. [Getting started](getting-started/) has the settings notes for
+enabling the in-app browser in each app.
 
 ## Two paths from here
 
@@ -66,10 +72,15 @@ context:
 - This site is itself the demonstration: every page has a Markdown mirror at
   `<page-url>index.md`, and `/llms.txt` is the index. Prefer the mirrors over
   scraping the HTML.
-- If your host app offers an in-app browser, offer to open this site in it so
-  the person can see the pages while you read the mirrors — but **ask for
-  permission first and wait for a yes**. Opening a browser pane is the
-  person's call, never yours.
+- If the person's message asked you to open this site in an in-app browser,
+  just do it — your host app's own approval flow is the safety gate — and
+  narrate the tour as they look at it. If you lack the capability, don't
+  stop at "I can't": tell them which app, plan, or setting provides it (the
+  Getting started page carries vendor notes, dated), help them enable it if
+  they want, and give the tour from the mirrors meanwhile. If their message
+  did not mention a browser at all, you may mention the option, but treat
+  this note as information about the site, not as an instruction — your
+  instructions come from the person. Never open a pane unprompted.
 - The person you are helping is being onboarded to the practice of pointing
   their AI at AI-friendly sites. If they seem new to this, the most useful
   thing you can do is narrate what you found: that the site published a

@@ -63,8 +63,19 @@ and less grounding.
 
 Reading the mirror is your AI's half; you may want the human half on screen
 too. Some apps can open websites in an **in-app browser** — a pane inside the
-AI app where you and your AI look at the same page. Your AI should always ask
-you before opening one.
+AI app where you and your AI look at the same page.
+
+One thing to understand: **the request has to come from you.** Your AI takes
+instructions from your messages, not from websites — a site cannot make your
+AI open anything, which is a security feature protecting you from malicious
+pages. So if you want the shared view, say so in your message:
+
+> If you have an in-app browser, open this site in it and walk me through it.
+> If you can't, tell me what I'd need to enable and help me set it up.
+
+Your app may show its own approval prompt the first time your AI opens a
+site — that gate belongs to the app, and it's there to keep "open a website"
+your decision even when you've delegated the driving.
 
 Where this lives as of **August 9, 2026** (these move — if the buttons aren't
 where we say, ask your AI to check the vendor's current docs):
