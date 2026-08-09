@@ -30,10 +30,11 @@ you point your AI at it, and the site cooperates.
 Open your AI app — Claude or ChatGPT, desktop or web — and paste this:
 
 > Read https://denson.github.io/aifriendlywebsites/ and its llms.txt. If you
-> have an in-app browser, open the site in it and walk me through it while I
-> look at it. If you can't open a browser, tell me what app, plan, or setting
-> I would need to enable one and help me set it up — then give me the tour
-> from the pages themselves.
+> can open the site in a browser I can see — an in-app browser pane, or my
+> own browser through an extension you drive — open it and walk me through
+> it while I look at it. If you can't, tell me what app, plan, extension, or
+> setting I would need and help me set it up — then give me the tour from
+> the pages themselves.
 
 Your AI will find the machine-readable index ([llms.txt](llms.txt)), the
 Markdown mirrors, and the agent notes, and explain the site back to you. That

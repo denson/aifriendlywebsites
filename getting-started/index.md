@@ -77,14 +77,21 @@ Your app may show its own approval prompt the first time your AI opens a
 site — that gate belongs to the app, and it's there to keep "open a website"
 your decision even when you've delegated the driving.
 
-Where this lives as of **August 9, 2026** (these move — if the buttons aren't
-where we say, ask your AI to check the vendor's current docs):
+"A browser your AI can show you" comes in two shapes, and which one you get
+depends on the app. Where this lives as of **August 9, 2026** (these move —
+if the buttons aren't where we say, ask your AI to check the vendor's current
+docs):
 
-- **Claude:** the in-app browser ships in the **Claude Code desktop app**
-  (paid plans) — toggle it with **Ctrl+Shift+B** (Windows) or **Cmd+Shift+B**
-  (Mac). It runs sandboxed, and actions like purchases or sign-ups require
-  your explicit approval. The regular Claude apps read pages without a
-  browser pane; that's normal and enough for everything on this page.
+- **Claude Cowork (the desktop app's agent mode):** there is no in-app pane —
+  Cowork browses by driving **your own Chrome** through the *Claude in
+  Chrome* extension. Expect the site to open in your real browser and expect
+  a permission prompt: your AI is acting inside your Chrome, and that consent
+  step is deliberate. This is the normal Cowork experience, not a fallback.
+- **Claude Code desktop** (paid plans): a true **in-app browser pane**,
+  toggled with **Ctrl+Shift+B** (Windows) or **Cmd+Shift+B** (Mac). Runs
+  sandboxed, with explicit approval required for consequential actions.
+- **Plain Claude apps and claude.ai:** read pages without any visible
+  browsing surface — normal, and enough for everything on this page.
 - **ChatGPT:** in the desktop app, the **Work** mode (the choice next to
   Chat, available on all plans) is what browses and acts — it plans first,
   shows you the plan, and checks in for approvals. Plain Chat can read pages

@@ -78,14 +78,21 @@ If you can't, tell me what I'd need to enable and help me set it up.</p>
 <p>Your app may show its own approval prompt the first time your AI opens a
 site — that gate belongs to the app, and it's there to keep "open a website"
 your decision even when you've delegated the driving.</p>
-<p>Where this lives as of <strong>August 9, 2026</strong> (these move — if the buttons aren't
-where we say, ask your AI to check the vendor's current docs):</p>
+<p>"A browser your AI can show you" comes in two shapes, and which one you get
+depends on the app. Where this lives as of <strong>August 9, 2026</strong> (these move —
+if the buttons aren't where we say, ask your AI to check the vendor's current
+docs):</p>
 <ul>
-<li><strong>Claude:</strong> the in-app browser ships in the <strong>Claude Code desktop app</strong>
-  (paid plans) — toggle it with <strong>Ctrl+Shift+B</strong> (Windows) or <strong>Cmd+Shift+B</strong>
-  (Mac). It runs sandboxed, and actions like purchases or sign-ups require
-  your explicit approval. The regular Claude apps read pages without a
-  browser pane; that's normal and enough for everything on this page.</li>
+<li><strong>Claude Cowork (the desktop app's agent mode):</strong> there is no in-app pane —
+  Cowork browses by driving <strong>your own Chrome</strong> through the <em>Claude in
+  Chrome</em> extension. Expect the site to open in your real browser and expect
+  a permission prompt: your AI is acting inside your Chrome, and that consent
+  step is deliberate. This is the normal Cowork experience, not a fallback.</li>
+<li><strong>Claude Code desktop</strong> (paid plans): a true <strong>in-app browser pane</strong>,
+  toggled with <strong>Ctrl+Shift+B</strong> (Windows) or <strong>Cmd+Shift+B</strong> (Mac). Runs
+  sandboxed, with explicit approval required for consequential actions.</li>
+<li><strong>Plain Claude apps and claude.ai:</strong> read pages without any visible
+  browsing surface — normal, and enough for everything on this page.</li>
 <li><strong>ChatGPT:</strong> in the desktop app, the <strong>Work</strong> mode (the choice next to
   Chat, available on all plans) is what browses and acts — it plans first,
   shows you the plan, and checks in for approvals. Plain Chat can read pages
@@ -110,7 +117,7 @@ before you start; the power step is real on both counts.</p>
         <li><a href="../llms.txt">llms.txt</a></li>
         <li><a href="../sitemap.xml">Sitemap</a></li>
       </ul>
-      <p class="page-updated">Published <time datetime="2026-08-09T22:59Z">August 9, 2026 at 22:59 UTC</time>. Last updated <time datetime="2026-08-09T23:11Z">August 9, 2026 at 23:11 UTC</time>. Times come from the commit history for this page and can be checked against it.</p>
+      <p class="page-updated">Published <time datetime="2026-08-09T22:59Z">August 9, 2026 at 22:59 UTC</time>. Last updated <time datetime="2026-08-09T23:15Z">August 9, 2026 at 23:15 UTC</time>. Times come from the commit history for this page and can be checked against it.</p>
       <p class="agent-note"><strong>Interpretation note:</strong> Every page on
       this site has a Markdown mirror at <code>index.md</code> beside it. The
       mirror is the machine-readable canon; the HTML is the human view.</p>
