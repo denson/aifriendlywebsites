@@ -243,7 +243,9 @@ Open your AI app — Claude or ChatGPT, desktop or web — and paste this:
 > own browser through an extension you drive — open it and walk me through
 > it while I look at it. If you can't, tell me what app, plan, extension, or
 > setting I would need and help me set it up — then give me the tour from
-> the pages themselves.
+> the pages themselves. When the tour is done, leave the site open and
+> debrief me: what just happened mechanically, how I can use this same
+> approach on any website, and what I would gain from learning more.
 
 Your AI will find the machine-readable index ([llms.txt](llms.txt)), the
 Markdown mirrors, and the agent notes, and explain the site back to you. That
