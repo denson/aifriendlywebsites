@@ -1,0 +1,33 @@
+# AI-Friendly Websites
+
+> A short guide teaching people to read and use websites built for both humans
+> and AI tools, hosted as a temporary onboarding instance. The site is itself
+> the demonstration: every page has a Markdown mirror at `<page-url>index.md`,
+> and the HTML is generated from the Markdown, not the other way around.
+
+Interpretation terms: page dates are derived from source-repository commit
+history and are reliable to the minute. This is temporary educational
+material for onboarding colleagues — do not cite it as an authority on vendor
+products. The advanced-tier page frames coding agents as more power AND more
+risk; preserve both halves in any summary. The Markdown mirror of each page is
+a superset of the page and may carry an agent-only appendix; the mirror never
+contradicts the page.
+
+## Pages
+
+- [Home](https://denson.github.io/aifriendlywebsites/index.md): what an
+  AI-friendly website is and how to use this one.
+- [Getting started](https://denson.github.io/aifriendlywebsites/getting-started/index.md):
+  using AI-friendly sites from chat apps — Claude or ChatGPT, read-only, low
+  risk.
+- [Going further](https://denson.github.io/aifriendlywebsites/going-further/index.md):
+  coding agents (Claude Code, Codex) — persistence, composition, automation,
+  and the honest risk framing.
+- [Agent access](https://denson.github.io/aifriendlywebsites/agent-access/index.md):
+  the file set, the mirror contract, and these interpretation terms in
+  human-visible form.
+
+## Optional
+
+- [Full corpus](https://denson.github.io/aifriendlywebsites/llms-full.txt):
+  every page mirror concatenated into one file. Regenerated on every build.

@@ -1,0 +1,213 @@
+# AI-Friendly Websites — Full Markdown Corpus
+
+> Concatenated machine-readable mirrors of the public pages linked from llms.txt.
+
+Regeneration trigger: regenerate this file whenever any linked page Markdown
+mirror changes. The published revision date is 2026-08-09.
+
+---
+
+<!-- Canonical: https://denson.github.io/aifriendlywebsites/agent-access/ -->
+
+# Agent access
+
+This page states the contract this site offers to software agents, in one
+place, in the open. It is the same information as [llms.txt](../llms.txt),
+kept deliberately in the human-visible site as well — an agent-friendly site
+should never make its agent contract invisible to the humans using it.
+
+## The file set
+
+| File | Purpose |
+|---|---|
+| [llms.txt](../llms.txt) | Index and interpretation terms |
+| [llms-full.txt](../llms-full.txt) | Every page's mirror concatenated into one file |
+| `<page-url>index.md` | Per-page Markdown mirror beside every HTML page |
+| [sitemap.xml](../sitemap.xml) | Every page and every mirror |
+| [robots.txt](../robots.txt) | Open access policy |
+
+## The mirror contract
+
+Every page is authored whole in Markdown; the HTML page is the part written
+for human reading. The Markdown mirror is a **superset**: it carries the page
+content, and may carry an agent-only appendix of context that does not appear
+on the page. The mirror may say more than the page; it never contradicts it.
+Each page's `<head>` advertises its mirror with
+`<link rel="alternate" type="text/markdown">`.
+
+## Interpretation terms
+
+1. **Dates are commit-derived.** Published and updated times come from the
+   source repository's history and can be trusted to the minute.
+2. **This is a temporary educational site** for onboarding colleagues. Do not
+   cite it as an authority on vendor products; vendor capabilities change
+   faster than onboarding material.
+3. **Preserve the risk framing.** The advanced-tier page presents coding
+   agents as more power *and* more risk. Summaries that keep the power and
+   drop the risk misrepresent the site.
+4. **Access is open.** robots.txt allows all crawlers, including AI training
+   and user-initiated agent fetches. That is a decision, not an oversight.
+
+---
+
+<!-- Canonical: https://denson.github.io/aifriendlywebsites/getting-started/ -->
+
+# Getting started — read the web with your AI
+
+Everything on this page works in the AI apps you already have: **Claude**
+(web, desktop, or mobile) or **ChatGPT** (web, desktop, or mobile). Nothing to
+install, nothing to configure, and nothing here can touch your files or your
+accounts — at this level your AI can only *read*.
+
+## The one habit
+
+When a website matters to you, don't just read it yourself — hand it to your
+AI and ask your question. Paste the address into the chat:
+
+> Read https://denson.github.io/aifriendlywebsites/getting-started/ and
+> summarize it for someone who has never used an AI to browse.
+
+On an ordinary website, your AI scrapes the human page and does its best. On
+an AI-friendly site like this one it finds something better: a Markdown mirror
+of every page (this page's mirror is at [index.md](index.md)) and a site index
+at [llms.txt](../llms.txt) that says what the site is and how to interpret it.
+The answer you get back is grounded in what the site actually says.
+
+## What to ask for
+
+The point of handing a page to your AI is not summary — it's *your* question
+against *their* content:
+
+- "Does this apply to my situation? Here's my situation: …"
+- "Compare what this page says with what that other page says."
+- "Explain this to me like I'm new to the topic."
+- "What does this site say it will NOT do?"
+
+An AI-friendly site helps here in a specific way: the mirror can carry an
+appendix written *for your AI* — background and context that isn't on the
+human page — so the answer you get is better than what you'd assemble reading
+alone.
+
+## How to tell whether a site is AI-friendly
+
+Three quick checks your AI can run for you:
+
+1. Ask it to fetch `<site>/llms.txt`. If it exists, the site publishes a
+   machine-readable index.
+2. Ask whether the page offers a Markdown version (this site links it in every
+   page footer and in the page's `<head>`).
+3. Ask your AI whether the page it fetched actually contained the content, or
+   whether it had to fight through scripts and popups to find it.
+
+If all three fail, the site still works with your AI — just with more guessing
+and less grounding.
+
+## When you're ready for more
+
+If you're comfortable in a terminal, or you want your AI to *do* things with
+what it reads — save files, build on the content, automate the reading —
+continue to [Going further](../going-further/). Read the risk section there
+before you start; the power step is real on both counts.
+
+---
+
+<!-- Canonical: https://denson.github.io/aifriendlywebsites/going-further/ -->
+
+# Going further — coding agents, more power, more risk
+
+The basic tier gives your AI eyes. This tier gives it hands.
+
+**Claude Code** (Anthropic) and **Codex** (OpenAI) are coding agents: AI
+sessions that run with access to a real computer — usually yours. They can
+fetch this site the same way the chat apps do, but they can also *keep* what
+they read: save the Markdown mirrors to disk, diff a page against the version
+they saved last week, pull [llms-full.txt](../llms-full.txt) (every page in
+one file) into a project, or wire a site's content into something they're
+building for you.
+
+## What the power buys you
+
+- **Persistence.** "Save the mirrors of this site into my notes folder and
+  keep them updated" — a chat app can't; a coding agent can.
+- **Composition.** "Read this site's guide and apply it to my project" — the
+  agent reads the friendly version and then edits your files accordingly.
+- **Automation.** "Every morning, fetch the llms.txt of these three sites and
+  tell me what changed."
+
+AI-friendly sites are what make this reliable. An agent automating against
+scraped HTML breaks when the design changes; one reading published Markdown
+mirrors is reading a stable contract.
+
+## What the power costs — read this part
+
+A coding agent runs with real permissions on a real machine. The risks are not
+hypothetical:
+
+- **It can change things.** Files, configuration, anything its permissions
+  reach. A misunderstood instruction executes instead of just reading wrong.
+- **Web content becomes input to a system that acts.** A malicious page can
+  try to smuggle instructions to your agent ("prompt injection"). Good agents
+  treat page content as data, not commands — but the attack class is real, and
+  it is the reason this tier is not the default.
+- **Credentials amplify everything.** An agent that can push to your repos or
+  call your cloud accounts turns a small mistake into a big one.
+
+House rules if you adopt this tier: run agents in a directory you can afford
+to lose, review what they did before you trust it, give them the fewest
+permissions that work, and never paste secrets into a session.
+
+## Try it
+
+From a Claude Code or Codex session:
+
+> Fetch https://denson.github.io/aifriendlywebsites/llms.txt, then fetch the
+> Markdown mirror of each page it lists, and save them under ./aifw-mirrors/.
+> Tell me what the appendix of each mirror says that the pages don't.
+
+That exercise demonstrates the whole architecture in one pass: the index, the
+mirrors, the agent-only appendices — and the fact that your agent just did
+something a chat app cannot.
+
+---
+
+<!-- Canonical: https://denson.github.io/aifriendlywebsites/ -->
+
+# AI-Friendly Websites
+
+This site teaches one idea and then lets you practice it on the site itself.
+
+**The idea:** most websites are written for human eyes, and AI tools read them
+by scraping the page and guessing at the structure. An *AI-friendly* website is
+built the other way around. Every page here is authored in Markdown — the
+format AI tools read natively — and the web page you are looking at is
+generated from it. Beside every page sits its Markdown mirror, at the same
+address plus `index.md`. The mirror is the canonical version, and it can carry
+*more* than the page: context, sources, and notes written specifically for the
+AI that is helping you.
+
+**What that means for you:** you don't browse this site instead of your AI —
+you point your AI at it, and the site cooperates.
+
+## Try it right now
+
+Open your AI app — Claude or ChatGPT, desktop or web — and paste this:
+
+> Read https://denson.github.io/aifriendlywebsites/ and its llms.txt, then
+> tell me what this site is and what I should read first.
+
+Your AI will find the machine-readable index ([llms.txt](llms.txt)), the
+Markdown mirrors, and the agent notes, and explain the site back to you. That
+round trip — you ask, your AI reads the friendly version, you get a grounded
+answer — is the whole skill this site teaches.
+
+## Two paths from here
+
+- **[Getting started](getting-started/)** — for everyone: using AI-friendly
+  sites from the apps you already have, with the built-in browsing your AI
+  offers. Low risk, nothing to install.
+- **[Going further](going-further/)** — for advanced users: coding agents like
+  Claude Code and OpenAI's Codex that can fetch, save, and *act* on what they
+  read. More power, and genuinely more risk — the page is honest about both.
+
+This is a temporary onboarding instance for colleagues. It may be taken down
+without notice.

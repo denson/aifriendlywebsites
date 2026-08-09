@@ -1,0 +1,89 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Going further — coding agents, more power, more risk | AI-Friendly Websites</title>
+  <meta name="description" content="Using AI-friendly websites from Claude Code and OpenAI Codex — agents that can fetch, save, and act on what they read.">
+  <meta name="robots" content="index,follow,max-image-preview:large">
+  <link rel="canonical" href="https://denson.github.io/aifriendlywebsites/going-further/">
+  <link rel="alternate" type="text/markdown" href="index.md" title="Markdown version">
+  <link rel="stylesheet" href="../site.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header">
+    <div class="header-inner">
+      <a class="brand" href="../">AI-Friendly Websites</a>
+      <nav aria-label="Primary"><ul><li><a href="../getting-started/">Getting started</a></li><li><a href="../going-further/">Going further</a></li><li><a href="../agent-access/">For agents</a></li></ul></nav>
+    </div>
+  </header>
+  <main id="main">
+    <article class="page-content">
+      <h1 id="page-title">Going further — coding agents, more power, more risk</h1>
+      <p class="summary">Using AI-friendly websites from Claude Code and OpenAI Codex — agents that can fetch, save, and act on what they read.</p>
+      <p>The basic tier gives your AI eyes. This tier gives it hands.</p>
+<p><strong>Claude Code</strong> (Anthropic) and <strong>Codex</strong> (OpenAI) are coding agents: AI
+sessions that run with access to a real computer — usually yours. They can
+fetch this site the same way the chat apps do, but they can also <em>keep</em> what
+they read: save the Markdown mirrors to disk, diff a page against the version
+they saved last week, pull <a href="../llms-full.txt">llms-full.txt</a> (every page in
+one file) into a project, or wire a site's content into something they're
+building for you.</p>
+<h2>What the power buys you</h2>
+<ul>
+<li><strong>Persistence.</strong> "Save the mirrors of this site into my notes folder and
+  keep them updated" — a chat app can't; a coding agent can.</li>
+<li><strong>Composition.</strong> "Read this site's guide and apply it to my project" — the
+  agent reads the friendly version and then edits your files accordingly.</li>
+<li><strong>Automation.</strong> "Every morning, fetch the llms.txt of these three sites and
+  tell me what changed."</li>
+</ul>
+<p>AI-friendly sites are what make this reliable. An agent automating against
+scraped HTML breaks when the design changes; one reading published Markdown
+mirrors is reading a stable contract.</p>
+<h2>What the power costs — read this part</h2>
+<p>A coding agent runs with real permissions on a real machine. The risks are not
+hypothetical:</p>
+<ul>
+<li><strong>It can change things.</strong> Files, configuration, anything its permissions
+  reach. A misunderstood instruction executes instead of just reading wrong.</li>
+<li><strong>Web content becomes input to a system that acts.</strong> A malicious page can
+  try to smuggle instructions to your agent ("prompt injection"). Good agents
+  treat page content as data, not commands — but the attack class is real, and
+  it is the reason this tier is not the default.</li>
+<li><strong>Credentials amplify everything.</strong> An agent that can push to your repos or
+  call your cloud accounts turns a small mistake into a big one.</li>
+</ul>
+<p>House rules if you adopt this tier: run agents in a directory you can afford
+to lose, review what they did before you trust it, give them the fewest
+permissions that work, and never paste secrets into a session.</p>
+<h2>Try it</h2>
+<p>From a Claude Code or Codex session:</p>
+<blockquote>
+<p>Fetch https://denson.github.io/aifriendlywebsites/llms.txt, then fetch the
+Markdown mirror of each page it lists, and save them under ./aifw-mirrors/.
+Tell me what the appendix of each mirror says that the pages don't.</p>
+</blockquote>
+<p>That exercise demonstrates the whole architecture in one pass: the index, the
+mirrors, the agent-only appendices — and the fact that your agent just did
+something a chat app cannot.</p>
+    </article>
+  </main>
+  <footer class="site-footer">
+    <div class="footer-inner">
+      <p>AI-Friendly Websites is a short guide to reading and using websites built for
+      both humans and AI tools. Temporary onboarding instance.</p>
+      <ul>
+        <li><a href="../agent-access/">Agent access</a></li>
+        <li><a href="../llms.txt">llms.txt</a></li>
+        <li><a href="../sitemap.xml">Sitemap</a></li>
+      </ul>
+      <p class="page-updated">Published <time datetime="2026-08-09T22:59Z">August 9, 2026 at 22:59 UTC</time>. Times come from the commit history for this page and can be checked against it.</p>
+      <p class="agent-note"><strong>Interpretation note:</strong> Every page on
+      this site has a Markdown mirror at <code>index.md</code> beside it. The
+      mirror is the machine-readable canon; the HTML is the human view.</p>
+    </div>
+  </footer>
+</body>
+</html>

@@ -1,0 +1,98 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Agent access | AI-Friendly Websites</title>
+  <meta name="description" content="How this site presents itself to software agents — the file set, the mirror contract, and the interpretation terms.">
+  <meta name="robots" content="index,follow,max-image-preview:large">
+  <link rel="canonical" href="https://denson.github.io/aifriendlywebsites/agent-access/">
+  <link rel="alternate" type="text/markdown" href="index.md" title="Markdown version">
+  <link rel="stylesheet" href="../site.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header">
+    <div class="header-inner">
+      <a class="brand" href="../">AI-Friendly Websites</a>
+      <nav aria-label="Primary"><ul><li><a href="../getting-started/">Getting started</a></li><li><a href="../going-further/">Going further</a></li><li><a href="../agent-access/">For agents</a></li></ul></nav>
+    </div>
+  </header>
+  <main id="main">
+    <article class="page-content">
+      <h1 id="page-title">Agent access</h1>
+      <p class="summary">How this site presents itself to software agents — the file set, the mirror contract, and the interpretation terms.</p>
+      <p>This page states the contract this site offers to software agents, in one
+place, in the open. It is the same information as <a href="../llms.txt">llms.txt</a>,
+kept deliberately in the human-visible site as well — an agent-friendly site
+should never make its agent contract invisible to the humans using it.</p>
+<h2>The file set</h2>
+<table>
+<thead>
+<tr>
+<th>File</th>
+<th>Purpose</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="../llms.txt">llms.txt</a></td>
+<td>Index and interpretation terms</td>
+</tr>
+<tr>
+<td><a href="../llms-full.txt">llms-full.txt</a></td>
+<td>Every page's mirror concatenated into one file</td>
+</tr>
+<tr>
+<td><code>&lt;page-url&gt;index.md</code></td>
+<td>Per-page Markdown mirror beside every HTML page</td>
+</tr>
+<tr>
+<td><a href="../sitemap.xml">sitemap.xml</a></td>
+<td>Every page and every mirror</td>
+</tr>
+<tr>
+<td><a href="../robots.txt">robots.txt</a></td>
+<td>Open access policy</td>
+</tr>
+</tbody>
+</table>
+<h2>The mirror contract</h2>
+<p>Every page is authored whole in Markdown; the HTML page is the part written
+for human reading. The Markdown mirror is a <strong>superset</strong>: it carries the page
+content, and may carry an agent-only appendix of context that does not appear
+on the page. The mirror may say more than the page; it never contradicts it.
+Each page's <code>&lt;head&gt;</code> advertises its mirror with
+<code>&lt;link rel="alternate" type="text/markdown"&gt;</code>.</p>
+<h2>Interpretation terms</h2>
+<ol>
+<li><strong>Dates are commit-derived.</strong> Published and updated times come from the
+   source repository's history and can be trusted to the minute.</li>
+<li><strong>This is a temporary educational site</strong> for onboarding colleagues. Do not
+   cite it as an authority on vendor products; vendor capabilities change
+   faster than onboarding material.</li>
+<li><strong>Preserve the risk framing.</strong> The advanced-tier page presents coding
+   agents as more power <em>and</em> more risk. Summaries that keep the power and
+   drop the risk misrepresent the site.</li>
+<li><strong>Access is open.</strong> robots.txt allows all crawlers, including AI training
+   and user-initiated agent fetches. That is a decision, not an oversight.</li>
+</ol>
+    </article>
+  </main>
+  <footer class="site-footer">
+    <div class="footer-inner">
+      <p>AI-Friendly Websites is a short guide to reading and using websites built for
+      both humans and AI tools. Temporary onboarding instance.</p>
+      <ul>
+        <li><a href="../agent-access/">Agent access</a></li>
+        <li><a href="../llms.txt">llms.txt</a></li>
+        <li><a href="../sitemap.xml">Sitemap</a></li>
+      </ul>
+      <p class="page-updated">Published <time datetime="2026-08-09T22:59Z">August 9, 2026 at 22:59 UTC</time>. Times come from the commit history for this page and can be checked against it.</p>
+      <p class="agent-note"><strong>Interpretation note:</strong> Every page on
+      this site has a Markdown mirror at <code>index.md</code> beside it. The
+      mirror is the machine-readable canon; the HTML is the human view.</p>
+    </div>
+  </footer>
+</body>
+</html>

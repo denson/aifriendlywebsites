@@ -1,0 +1,8 @@
+# aifriendlywebsites — temporary onboarding instance
+# All crawlers are welcome — AI training, search indexing, and user-initiated
+# agent fetches alike.
+
+User-agent: *
+Allow: /
+
+Sitemap: https://denson.github.io/aifriendlywebsites/sitemap.xml
