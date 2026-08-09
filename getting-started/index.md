@@ -87,6 +87,10 @@ docs):
   Chrome* extension. Expect the site to open in your real browser and expect
   a permission prompt: your AI is acting inside your Chrome, and that consent
   step is deliberate. This is the normal Cowork experience, not a fallback.
+  **Known catch:** the new tab may open *without focus* — if nothing seems
+  to happen, check your Chrome window for a tab named after the site. Once
+  found, put it where you can watch it: a second monitor if you have one, or
+  snapped side by side with the Claude window.
 - **Claude Code desktop** (paid plans): a true **in-app browser pane**,
   toggled with **Ctrl+Shift+B** (Windows) or **Cmd+Shift+B** (Mac). Runs
   sandboxed, with explicit approval required for consequential actions.

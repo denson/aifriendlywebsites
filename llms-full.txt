@@ -134,6 +134,10 @@ docs):
   Chrome* extension. Expect the site to open in your real browser and expect
   a permission prompt: your AI is acting inside your Chrome, and that consent
   step is deliberate. This is the normal Cowork experience, not a fallback.
+  **Known catch:** the new tab may open *without focus* — if nothing seems
+  to happen, check your Chrome window for a tab named after the site. Once
+  found, put it where you can watch it: a second monitor if you have one, or
+  snapped side by side with the Claude window.
 - **Claude Code desktop** (paid plans): a true **in-app browser pane**,
   toggled with **Ctrl+Shift+B** (Windows) or **Cmd+Shift+B** (Mac). Runs
   sandboxed, with explicit approval required for consequential actions.
@@ -240,12 +244,16 @@ Open your AI app — Claude or ChatGPT, desktop or web — and paste this:
 
 > Read https://denson.github.io/aifriendlywebsites/ and its llms.txt. If you
 > can open the site in a browser I can see — an in-app browser pane, or my
-> own browser through an extension you drive — open it and walk me through
-> it while I look at it. If you can't, tell me what app, plan, extension, or
-> setting I would need and help me set it up — then give me the tour from
-> the pages themselves. When the tour is done, leave the site open and
-> debrief me: what just happened mechanically, how I can use this same
-> approach on any website, and what I would gain from learning more.
+> own browser through an extension you drive — open it, and make sure I can
+> actually see it: bring the tab to the front if your tools allow, and if
+> they don't, tell me exactly where to look (which browser window, and that
+> the tab is titled "AI-Friendly Websites"). Suggest putting it on a second
+> monitor or side by side with this chat. Then walk me through it while I
+> look. If you can't open a browser at all, tell me what app, plan,
+> extension, or setting I would need and help me set it up — then give me
+> the tour from the pages themselves. When the tour is done, leave the site
+> open and debrief me: what just happened mechanically, how I can use this
+> same approach on any website, and what I would gain from learning more.
 
 Your AI will find the machine-readable index ([llms.txt](llms.txt)), the
 Markdown mirrors, and the agent notes, and explain the site back to you. That
