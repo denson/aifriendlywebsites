@@ -9,6 +9,7 @@
   <link rel="canonical" href="https://denson.github.io/aifriendlywebsites/">
   <link rel="alternate" type="text/markdown" href="index.md" title="Markdown version">
   <link rel="stylesheet" href="site.css">
+  <script>function copyPaste(btn){var q=btn.parentElement.querySelector('blockquote');var ok=function(){btn.textContent='Copied \u2713';btn.classList.add('copied');setTimeout(function(){btn.textContent='Copy';btn.classList.remove('copied');},2000);};var fallback=function(){var r=document.createRange();r.selectNodeContents(q);var s=getSelection();s.removeAllRanges();s.addRange(r);var manual=function(){btn.textContent='Select the text and copy';};try{document.execCommand('copy')?ok():manual();}catch(e){manual();}};if(navigator.clipboard&&navigator.clipboard.writeText){navigator.clipboard.writeText(q.innerText).then(ok,fallback);}else{fallback();}}</script>
 </head>
 <body>
   <a class="skip-link" href="#main">Skip to content</a>
@@ -25,7 +26,7 @@
       <p>This is a short guided tour, one screen per page. Your AI walks you through
 it; you watch, ask questions, and move on when ready.</p>
 <p><strong>To start</strong>, paste this into Claude or ChatGPT:</p>
-<blockquote>
+<div class="paste-box"><button class="copy-btn" type="button" onclick="copyPaste(this)">Copy</button><blockquote>
 <p>Read https://denson.github.io/aifriendlywebsites/ and its llms.txt. If you
 can open the site in a browser I can see — an in-app pane, or my own
 browser through an extension you drive — open it, bring the tab to the
@@ -38,7 +39,7 @@ screen, and check that I'm ready before moving on. If you can't open a
 browser at all, help me work out what app, plan, extension, or setting I
 need — and tour me from the mirrors meanwhile. Finish on the last tour
 page, leave it open, and give me the debrief it describes.</p>
-</blockquote>
+</blockquote></div>
 <p>Prefer reading alone? Use the <strong>Next</strong> link below.</p>
       <nav class="pager" aria-label="Tour"><span class="pager-slot"></span><a class="pager-next" href="tour/1-what/">What is an AI-friendly website? →</a></nav>
     </article>
@@ -47,7 +48,7 @@ page, leave it open, and give me the debrief it describes.</p>
     <div class="footer-inner">
       <a href="agent-access/">Agent access</a> ·
       <a href="llms.txt">llms.txt</a> ·
-      <a href="sitemap.xml">Sitemap</a> · <span class="page-updated">Updated <time datetime="2026-08-09T23:38Z">August 9, 2026 at 23:38 UTC</time> (from git)</span>
+      <a href="sitemap.xml">Sitemap</a> · <span class="page-updated">Updated <time datetime="2026-08-09T23:42Z">August 9, 2026 at 23:42 UTC</time> (from git)</span>
     </div>
   </footer>
 </body>

@@ -160,3 +160,22 @@ h1 { font-size: 1.45rem; }
 .footer-inner { padding: 0.9rem 1.25rem 1.1rem; }
 .footer-inner ul { margin: 0.3rem 0; }
 .page-updated { margin: 0.3rem 0 0; }
+
+.paste-box { position: relative; }
+.paste-box blockquote { padding-right: 4.4rem; }
+.copy-btn {
+  position: absolute;
+  top: 0.45rem;
+  right: 0.45rem;
+  font-family: "Segoe UI", system-ui, sans-serif;
+  font-size: 0.78rem;
+  font-weight: 600;
+  color: #fff;
+  background: var(--accent);
+  border: none;
+  border-radius: 4px;
+  padding: 0.3rem 0.7rem;
+  cursor: pointer;
+}
+.copy-btn:hover { filter: brightness(1.12); }
+.copy-btn.copied { background: var(--ink); }
