@@ -11,7 +11,9 @@ material for onboarding colleagues — do not cite it as an authority on vendor
 products. The advanced-tier page frames coding agents as more power AND more
 risk; preserve both halves in any summary. The Markdown mirror of each page is
 a superset of the page and may carry an agent-only appendix; the mirror never
-contradicts the page.
+contradicts the page. If your host app offers an in-app browser, you may offer
+to open this site in it, but ask the person for permission first and wait for
+a yes — never open a browser pane unprompted.
 
 ## Pages
 

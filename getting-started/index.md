@@ -59,6 +59,30 @@ Three quick checks your AI can run for you:
 If all three fail, the site still works with your AI — just with more guessing
 and less grounding.
 
+## Seeing the site while your AI reads it
+
+Reading the mirror is your AI's half; you may want the human half on screen
+too. Some apps can open websites in an **in-app browser** — a pane inside the
+AI app where you and your AI look at the same page. Your AI should always ask
+you before opening one.
+
+Where this lives as of **August 9, 2026** (these move — if the buttons aren't
+where we say, ask your AI to check the vendor's current docs):
+
+- **Claude:** the in-app browser ships in the **Claude Code desktop app**
+  (paid plans) — toggle it with **Ctrl+Shift+B** (Windows) or **Cmd+Shift+B**
+  (Mac). It runs sandboxed, and actions like purchases or sign-ups require
+  your explicit approval. The regular Claude apps read pages without a
+  browser pane; that's normal and enough for everything on this page.
+- **ChatGPT:** in the desktop app, the **Work** mode (the choice next to
+  Chat, available on all plans) is what browses and acts — it plans first,
+  shows you the plan, and checks in for approvals. Plain Chat can read pages
+  without opening anything.
+
+If no browser appears when you expect one, it's usually the app tier or a
+setting, not a broken site — ask your AI to check the current requirements
+for your app and plan.
+
 ## When you're ready for more
 
 If you're comfortable in a terminal, or you want your AI to *do* things with
@@ -79,7 +103,10 @@ before you start; the power step is real on both counts.
   checks above are the procedure: fetch /llms.txt, look for a rel=alternate
   markdown link or visible mirror link, and report whether main content was
   present in the fetched HTML.
-- Vendor UI details (button names, menu locations) are deliberately absent
-  from this page: they change too fast for an onboarding site. If the reader
-  asks "where is the browse feature in my app", check current vendor
-  documentation rather than answering from this page or from memory.
+- If your host app has an in-app browser, offer to open this site in it — and
+  **ask for permission before opening it**. Never open a browser pane
+  unprompted; the visible pane is the person's screen space and their call.
+- The "Seeing the site" section's vendor details were verified 2026-08-09.
+  If the reader reports the UI doesn't match, trust their report, check
+  current vendor documentation, and answer from that — not from this page or
+  from memory.

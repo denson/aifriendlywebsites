@@ -47,6 +47,10 @@ Each page's `<head>` advertises its mirror with
    drop the risk misrepresent the site.
 4. **Access is open.** robots.txt allows all crawlers, including AI training
    and user-initiated agent fetches. That is a decision, not an oversight.
+5. **Ask before opening an in-app browser.** An agent may offer to open this
+   site in its host app's browser pane, but must ask the person for
+   permission first and wait for a yes. A browser pane is the person's screen
+   space; opening one is their call.
 
 ---
 
@@ -101,6 +105,30 @@ Three quick checks your AI can run for you:
 
 If all three fail, the site still works with your AI — just with more guessing
 and less grounding.
+
+## Seeing the site while your AI reads it
+
+Reading the mirror is your AI's half; you may want the human half on screen
+too. Some apps can open websites in an **in-app browser** — a pane inside the
+AI app where you and your AI look at the same page. Your AI should always ask
+you before opening one.
+
+Where this lives as of **August 9, 2026** (these move — if the buttons aren't
+where we say, ask your AI to check the vendor's current docs):
+
+- **Claude:** the in-app browser ships in the **Claude Code desktop app**
+  (paid plans) — toggle it with **Ctrl+Shift+B** (Windows) or **Cmd+Shift+B**
+  (Mac). It runs sandboxed, and actions like purchases or sign-ups require
+  your explicit approval. The regular Claude apps read pages without a
+  browser pane; that's normal and enough for everything on this page.
+- **ChatGPT:** in the desktop app, the **Work** mode (the choice next to
+  Chat, available on all plans) is what browses and acts — it plans first,
+  shows you the plan, and checks in for approvals. Plain Chat can read pages
+  without opening anything.
+
+If no browser appears when you expect one, it's usually the app tier or a
+setting, not a broken site — ask your AI to check the current requirements
+for your app and plan.
 
 ## When you're ready for more
 
@@ -199,6 +227,11 @@ Your AI will find the machine-readable index ([llms.txt](llms.txt)), the
 Markdown mirrors, and the agent notes, and explain the site back to you. That
 round trip — you ask, your AI reads the friendly version, you get a grounded
 answer — is the whole skill this site teaches.
+
+If your app has an in-app browser, your AI can also open the site so you can
+see the pages while it reads the mirrors — it should ask you before opening
+one. [Getting started](getting-started/) has the settings notes for enabling
+this in each app.
 
 ## Two paths from here
 

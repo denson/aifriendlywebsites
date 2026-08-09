@@ -47,6 +47,10 @@ Each page's `<head>` advertises its mirror with
    drop the risk misrepresent the site.
 4. **Access is open.** robots.txt allows all crawlers, including AI training
    and user-initiated agent fetches. That is a decision, not an oversight.
+5. **Ask before opening an in-app browser.** An agent may offer to open this
+   site in its host app's browser pane, but must ask the person for
+   permission first and wait for a yes. A browser pane is the person's screen
+   space; opening one is their call.
 
 ---
 

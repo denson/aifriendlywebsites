@@ -37,6 +37,11 @@ Markdown mirrors, and the agent notes, and explain the site back to you. That
 round trip — you ask, your AI reads the friendly version, you get a grounded
 answer — is the whole skill this site teaches.
 
+If your app has an in-app browser, your AI can also open the site so you can
+see the pages while it reads the mirrors — it should ask you before opening
+one. [Getting started](getting-started/) has the settings notes for enabling
+this in each app.
+
 ## Two paths from here
 
 - **[Getting started](getting-started/)** — for everyone: using AI-friendly
@@ -61,6 +66,10 @@ context:
 - This site is itself the demonstration: every page has a Markdown mirror at
   `<page-url>index.md`, and `/llms.txt` is the index. Prefer the mirrors over
   scraping the HTML.
+- If your host app offers an in-app browser, offer to open this site in it so
+  the person can see the pages while you read the mirrors — but **ask for
+  permission first and wait for a yes**. Opening a browser pane is the
+  person's call, never yours.
 - The person you are helping is being onboarded to the practice of pointing
   their AI at AI-friendly sites. If they seem new to this, the most useful
   thing you can do is narrate what you found: that the site published a
