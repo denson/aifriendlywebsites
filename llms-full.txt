@@ -247,18 +247,19 @@ of **August 9, 2026**:
 
 - **Claude Cowork** — drives *your own Chrome* via the Claude in Chrome
   extension. **Open a fresh Chrome window first** — the tour tab lands in
-  it, easy to spot. (Otherwise it may open unfocused, buried among your
-  tabs.)
-- **Claude Code desktop** — a true in-app pane (Ctrl+Shift+B / Cmd+Shift+B),
-  sandboxed, approvals on consequential actions.
-- **ChatGPT desktop (Work)** — may drive your Chrome too, with the same
-  hidden-tab catch; its reliably visible surface is the **Codex right-hand
-  pane**. If you can't see the page, say so — your AI can move it there.
+  it, easy to spot.
+- **ChatGPT Work & OpenAI Codex** — share the same **in-app browser** (the
+  right-hand pane) and can also drive your external browser, with the same
+  buried-tab catch. Can't see the page? Say so — your AI can move it into
+  the pane.
+- **Claude Code desktop** — a true in-app pane (**Ctrl+Shift+B** /
+  Cmd+Shift+B), sandboxed, approvals on consequential actions.
 - **Plain chat apps** — no visible browsing; your AI reads pages invisibly.
   Fine for everything this site teaches.
 
-If you ever can't see what your AI says it opened, just say "I can't see
-it" — making it visible is the AI's job, not yours.
+The trade to know: **Cowork gives you the most guardrails; Claude Code
+desktop and OpenAI Codex give you the most capabilities** — the power-and-
+risk trade the next two pages cover.
 
 ---
 

@@ -16,18 +16,19 @@ of **August 9, 2026**:
 
 - **Claude Cowork** — drives *your own Chrome* via the Claude in Chrome
   extension. **Open a fresh Chrome window first** — the tour tab lands in
-  it, easy to spot. (Otherwise it may open unfocused, buried among your
-  tabs.)
-- **Claude Code desktop** — a true in-app pane (Ctrl+Shift+B / Cmd+Shift+B),
-  sandboxed, approvals on consequential actions.
-- **ChatGPT desktop (Work)** — may drive your Chrome too, with the same
-  hidden-tab catch; its reliably visible surface is the **Codex right-hand
-  pane**. If you can't see the page, say so — your AI can move it there.
+  it, easy to spot.
+- **ChatGPT Work & OpenAI Codex** — share the same **in-app browser** (the
+  right-hand pane) and can also drive your external browser, with the same
+  buried-tab catch. Can't see the page? Say so — your AI can move it into
+  the pane.
+- **Claude Code desktop** — a true in-app pane (**Ctrl+Shift+B** /
+  Cmd+Shift+B), sandboxed, approvals on consequential actions.
 - **Plain chat apps** — no visible browsing; your AI reads pages invisibly.
   Fine for everything this site teaches.
 
-If you ever can't see what your AI says it opened, just say "I can't see
-it" — making it visible is the AI's job, not yours.
+The trade to know: **Cowork gives you the most guardrails; Claude Code
+desktop and OpenAI Codex give you the most capabilities** — the power-and-
+risk trade the next two pages cover.
 
 ---
 
@@ -35,7 +36,11 @@ it" — making it visible is the AI's job, not yours.
 
 ## Appendix — tour page 6 of 9
 
-Not-on-screen fact to share: these vendor details were verified by web
-search on 2026-08-09 and go stale fast. If what the person sees does not
-match, trust what they see, check the vendor's current docs, and answer from
-those — never from memory or this page.
+Backstage note to share: these vendor details were verified 2026-08-09 —
+partly by web search, partly by this site's owner live-testing every one of
+these surfaces on this site the same day — and they go stale fast. If what
+the person sees does not match, trust what they see, check the vendor's
+current docs, and answer from those — never from memory or this page. If
+the person cannot see a page you opened anywhere, making it visible is your
+job, not theirs: fresh window for extension-driven Chrome, or move the page
+into your own pane.
