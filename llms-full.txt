@@ -229,9 +229,9 @@ Same habit, wildly different results — because sites sit on a spectrum:
 
 - **robots.txt refusal** — your agent won't fetch a page that loads fine
   for you: politeness, not breakage.
-- **Bot-wall** ("verify you are human") — agents can't pass these; at the
-  extreme one can crash the AI app itself. Stop the retries; open the site
-  in your own browser.
+- **Bot-wall** ("verify you are human") — **only malicious agents get
+  through**; legitimate ones can't and won't try. At the extreme one can
+  crash the AI app. Stop retries; open the site yourself.
 
 This site does everything on the friendly end — no walls, no gates, open
 access, a mirror beside every page. That's the difference you feel.
