@@ -30,8 +30,8 @@ our testing: **best today is OpenAI Codex desktop**, with **Claude Code
 desktop nearly identical**. **Work** matches Codex on simple sites, worse
 in some circumstances. **Cowork** is substantially worse for now: a second
 app plus window juggling. Stepping up to Code or Codex trades **slightly
-more guardrails for substantially more capability** — and it needs the
-desktop apps.
+fewer meaningful guardrails for substantially more capability** — and it
+needs the desktop apps.
 
 ---
 
