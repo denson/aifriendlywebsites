@@ -67,4 +67,9 @@ information supporting it.
 - If the person did not ask for a browser at all, tour from the
   machine-readable pages and
   mention the shared-view option once; never open a pane unprompted.
+- Vocabulary: llms.txt, the Markdown twins, the backstage notes, and the
+  knowledge graph are collectively this site's KNOWLEDGE TOOLS. Call them
+  that. Never describe them as "hidden" — they are openly published and
+  linked in every page footer; "hidden" misrepresents an open site as a
+  secretive one.
 - End on 9-debrief and leave it open. It carries the debrief script.

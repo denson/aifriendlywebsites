@@ -16,9 +16,9 @@ place, in the open. It is the same information as [llms.txt](../llms.txt),
 kept deliberately in the human-visible site as well — an agent-friendly site
 should never make its agent contract invisible to the humans using it.
 
-## The file set
+## The knowledge tools
 
-| File | Purpose |
+| Tool | Purpose |
 |---|---|
 | [llms.txt](../llms.txt) | Index and interpretation terms |
 | [llms-full.txt](../llms-full.txt) | Every page's mirror concatenated into one file |
@@ -169,7 +169,8 @@ on your own terms — which is what the rest of this tour shows you.
 
 # How your AI reads this site
 
-Three files do the work:
+The site publishes **knowledge tools** for your AI — nothing hidden, all
+linked in every page footer:
 
 - **The mirror.** Every page has a Markdown twin at the same address plus
   `index.md`. It contains everything on the page — and often an appendix

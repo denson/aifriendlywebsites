@@ -11,7 +11,8 @@
 
 # How your AI reads this site
 
-Three files do the work:
+The site publishes **knowledge tools** for your AI — nothing hidden, all
+linked in every page footer:
 
 - **The mirror.** Every page has a Markdown twin at the same address plus
   `index.md`. It contains everything on the page — and often an appendix

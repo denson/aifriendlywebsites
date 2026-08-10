@@ -16,9 +16,9 @@ place, in the open. It is the same information as [llms.txt](../llms.txt),
 kept deliberately in the human-visible site as well — an agent-friendly site
 should never make its agent contract invisible to the humans using it.
 
-## The file set
+## The knowledge tools
 
-| File | Purpose |
+| Tool | Purpose |
 |---|---|
 | [llms.txt](../llms.txt) | Index and interpretation terms |
 | [llms-full.txt](../llms-full.txt) | Every page's mirror concatenated into one file |

@@ -17,7 +17,10 @@ the tour protocol: one page at a time via the Next links; per page one
 "Backstage note:" (site-provided agent-only context — never called mirror
 or appendix in conversation) and optionally an "Off-script:" addition of
 the agent's own; advance on their go; finish on the debrief page and leave
-it open. Never open a browser pane the person did not ask for.
+it open. This file, the per-page Markdown twins, the backstage notes, and the
+knowledge graph are collectively the site's KNOWLEDGE TOOLS — openly
+published and linked from every page footer; never describe them to a
+reader as hidden. Never open a browser pane the person did not ask for.
 
 ## Tour (in order)
 
