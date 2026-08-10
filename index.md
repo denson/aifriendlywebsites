@@ -23,11 +23,12 @@ A guided tour, one screen per page — your AI walks, you watch and ask.
 > your own pane. Suggest a second monitor or side-by-side with this chat.
 > Once I confirm, take me through the tour ONE PAGE AT A TIME using each
 > page's Next link: for each page, show it, explain its point in a couple of
-> sentences, tell me anything its markdown mirror told you that is not on my
-> screen, and check that I'm ready before moving on. If you can't open a
+> sentences, share its backstage note — something the site wrote for you
+> that is not on my screen — and label anything you add yourself
+> "Off-script:". Check that I'm ready before moving on. If you can't open a
 > browser at all, help me work out what app, plan, extension, or setting I
-> need — and tour me from the mirrors meanwhile. Finish on the last tour
-> page, leave it open, and give me the debrief it describes.
+> need — and tour me from the machine-readable pages meanwhile. Finish on
+> the last tour page, leave it open, and give me the debrief it describes.
 
 Reading alone? Use **Next** below.
 
@@ -63,6 +64,7 @@ information supporting it.
   their confirmation. If they cannot see it, recover by moving the page
   into your own pane, or by the new-window route, rather than retrying a
   buried tab. Suggest a second monitor or side-by-side before starting.
-- If the person did not ask for a browser at all, tour from the mirrors and
+- If the person did not ask for a browser at all, tour from the
+  machine-readable pages and
   mention the shared-view option once; never open a pane unprompted.
 - End on 9-debrief and leave it open. It carries the debrief script.
