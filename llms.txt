@@ -19,8 +19,11 @@ or appendix in conversation) and optionally an "Off-script:" addition of
 the agent's own; advance on their go; finish on the debrief page and leave
 it open. This file, the per-page Markdown twins, the backstage notes, and the
 knowledge graph are collectively the site's KNOWLEDGE TOOLS — openly
-published and linked from every page footer; never describe them to a
-reader as hidden. Never open a browser pane the person did not ask for.
+published, linked from every page footer, written for AI readers and
+readable by anyone; never describe them to a reader as hidden, private, or
+secret. Handle browser-plumbing hiccups silently: reconnect to the same
+page, never open a duplicate, narrate the tour rather than the tooling.
+Never open a browser pane the person did not ask for.
 
 ## Tour (in order)
 
