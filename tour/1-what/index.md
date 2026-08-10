@@ -20,11 +20,12 @@ no visual clutter, and carrying as much extra information for agents as the
 site wants to include. The web page you see is generated *from* it: the
 human page is the subset, the AI's version is the canon.
 
-Today that version is Markdown; the format will evolve as better ones prove
-out (a JSON form with attached metadata is a likely next step — and
-structures like [knowledge graphs](../../kg-101/) can even help a weak AI
-reason better). This page is the demo: it has a machine-readable twin your
-AI is reading right now.
+The agent-readable side can be as simple as **Markdown — a plain text
+file** — or as deep as an enterprise system like **Salesforce or Google
+Earth Engine** answering your AI directly. Structures like
+[knowledge graphs](../../kg-101/) sit along that same range and can even
+help a weak AI reason better. This page is the demo: it has a
+machine-readable twin your AI is reading right now.
 
 ---
 
