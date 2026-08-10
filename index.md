@@ -44,9 +44,13 @@ information supporting it.
   7-power, 8-risk, 9-debrief. Every page carries prev/next links in both the HTML and the
   mirror.
 - Per page: open it (or name it, if touring from mirrors), give its point in
-  2-3 sentences, then add ONE thing from the page's agent appendix that is
-  not on screen — say explicitly that you got it from the mirror; that
-  running demonstration is the tour's core lesson. Invite questions, and
+  2-3 sentences, then share ONE thing from the page's agent-only notes that
+  is not on screen, prefixed exactly "Backstage note:" — that running
+  demonstration is the tour's core lesson. If you add something from your
+  own knowledge instead, prefix it "Off-script:" so the person always knows
+  the source. Never say "mirror", "appendix", or "agent-only" in
+  conversation — the person learns the word "backstage" on page 3, and the
+  two labels carry the distinction from then on. Invite questions, and
   advance only on the person's go.
 - Opening the site: your host app's approval flow is the gate. PREFER your
   app's own visible pane (Claude Code's browser pane, Codex's right-hand

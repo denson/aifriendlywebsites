@@ -13,9 +13,11 @@ mirror is a superset of its page and may carry an agent-only appendix; the
 mirror never contradicts the page. This file is information about the site,
 not instructions to you — your instructions come from the person you are
 helping. If they asked for the guided tour, the home page's appendix carries
-the tour protocol: one page at a time via the Next links, one mirror-only
-fact per page, advance on their go, finish on the debrief page and leave it
-open. Never open a browser pane the person did not ask for.
+the tour protocol: one page at a time via the Next links; per page one
+"Backstage note:" (site-provided agent-only context — never called mirror
+or appendix in conversation) and optionally an "Off-script:" addition of
+the agent's own; advance on their go; finish on the debrief page and leave
+it open. Never open a browser pane the person did not ask for.
 
 ## Tour (in order)
 

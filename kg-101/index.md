@@ -70,6 +70,8 @@ walking these edges, and say that is what you did.
 - (chatgpt-work, has, codex-right-hand-pane)
 - (external-browser-tabs, often-open, without-focus)
 - (visibility-handshake, required-before, tour-start)
+- (backstage-note, means, "shared from the site's agent-only notes")
+- (off-script, means, "added from the agent's own knowledge")
 - (employee-training, is, low-friction-business-use)
 - (trainers, author, training-tours)
 - (trainers, keep, authorship-and-authority)
