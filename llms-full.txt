@@ -124,13 +124,16 @@ Most websites are written for human eyes. When an AI reads one, it scrapes
 the page and guesses at the structure — and loses whatever the design buried.
 
 An **AI-friendly website** is built the other way around. Every page starts
-as Markdown — the format AI tools read natively — and the web page you see is
-generated *from* it. The human page is the subset; the AI's version is the
-canon.
+as a clean, structured version written to be read and understood by AI —
+no visual clutter, and carrying as much extra information for agents as the
+site wants to include. The web page you see is generated *from* it: the
+human page is the subset, the AI's version is the canon.
 
-This site is built that way, which makes it the demo: the page you are
-reading right now has a machine-readable twin your AI is reading at the same
-time.
+Today that version is Markdown; the format will evolve as better ones prove
+out (a JSON form with attached metadata is a likely next step — and
+structures like [knowledge graphs](../../kg-101/) can even help a weak AI
+reason better). This page is the demo: it has a machine-readable twin your
+AI is reading right now.
 
 ---
 
