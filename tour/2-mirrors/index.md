@@ -24,7 +24,10 @@ Three files do the work:
 The appendix is the interesting part: background the site gives your AI so
 it can explain things *for you specifically* — not text meant for the screen.
 
-**Try it:** ask your AI what this page's appendix told it.
+**Try it** — copy this and paste it to your AI:
+
+> What did this page's appendix tell you that is not on my screen? Read it
+> back to me in your own words.
 
 ---
 

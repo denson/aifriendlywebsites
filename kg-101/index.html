@@ -9,7 +9,7 @@
   <link rel="canonical" href="https://denson.github.io/aifriendlywebsites/kg-101/">
   <link rel="alternate" type="text/markdown" href="index.md" title="Markdown version">
   <link rel="stylesheet" href="../site.css">
-  
+  <script>function copyPaste(btn){var q=btn.parentElement.querySelector('blockquote');var ok=function(){btn.textContent='Copied \u2713';btn.classList.add('copied');setTimeout(function(){btn.textContent='Copy';btn.classList.remove('copied');},2000);};var fallback=function(){var r=document.createRange();r.selectNodeContents(q);var s=getSelection();s.removeAllRanges();s.addRange(r);var manual=function(){btn.textContent='Select the text and copy';};try{document.execCommand('copy')?ok():manual();}catch(e){manual();}};if(navigator.clipboard&&navigator.clipboard.writeText){navigator.clipboard.writeText(q.innerText).then(ok,fallback);}else{fallback();}}</script>
 </head>
 <body>
   <a class="skip-link" href="#main">Skip to content</a>
@@ -25,11 +25,11 @@
       <p class="summary">The structure that can make a weak AI smarter — and how AI-friendly sites can publish one.</p>
       <p>A <strong>knowledge graph</strong> stores facts as connections, three parts at a time:
 <em>thing → relationship → thing</em>.</p>
-<blockquote>
+<div class="paste-box"><button class="copy-btn" type="button" onclick="copyPaste(this)">Copy</button><blockquote>
 <p>This site → teaches → the mirror pattern
 A mirror → is the canon for → its page
 Claude Cowork → browses through → your Chrome</p>
-</blockquote>
+</blockquote></div>
 <p>Each line is one fact, small enough that a machine cannot misread it.</p>
 <h2>Why AI reads them so well</h2>
 <p>Prose makes an AI <em>infer</em> the structure — who did what, what belongs to
@@ -44,9 +44,12 @@ the next rung on the same ladder: alongside the prose mirror, a site can
 publish its facts <em>as a graph</em> — plain triples in an agent appendix, or a
 machine format the page links to. The human page stays readable prose; the
 agent gets a structure it can walk, join, and check answers against.</p>
-<p><strong>Try it:</strong> ask your AI what this page's appendix contains, and then ask it
-a question about this site — it can answer by walking the graph instead of
-re-reading the pages.</p>
+<p><strong>Try it</strong> — copy this and paste it to your AI:</p>
+<div class="paste-box"><button class="copy-btn" type="button" onclick="copyPaste(this)">Copy</button><blockquote>
+<p>Read this page's appendix. Then answer from the knowledge graph in it, and
+tell me which triples you walked: how does Claude Cowork open websites,
+and what must happen before a tour starts?</p>
+</blockquote></div>
       
     </article>
   </main>
@@ -54,7 +57,7 @@ re-reading the pages.</p>
     <div class="footer-inner">
       <a href="../agent-access/">Agent access</a> ·
       <a href="../llms.txt">llms.txt</a> ·
-      <a href="../sitemap.xml">Sitemap</a> · <span class="page-updated">Updated <time datetime="2026-08-10T00:15Z">August 10, 2026 at 00:15 UTC</time> (from git)</span>
+      <a href="../sitemap.xml">Sitemap</a> · <span class="page-updated">Updated <time datetime="2026-08-10T00:33Z">August 10, 2026 at 00:33 UTC</time> (from git)</span>
     </div>
   </footer>
 </body>

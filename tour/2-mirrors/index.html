@@ -9,7 +9,7 @@
   <link rel="canonical" href="https://denson.github.io/aifriendlywebsites/tour/2-mirrors/">
   <link rel="alternate" type="text/markdown" href="index.md" title="Markdown version">
   <link rel="stylesheet" href="../../site.css">
-  
+  <script>function copyPaste(btn){var q=btn.parentElement.querySelector('blockquote');var ok=function(){btn.textContent='Copied \u2713';btn.classList.add('copied');setTimeout(function(){btn.textContent='Copy';btn.classList.remove('copied');},2000);};var fallback=function(){var r=document.createRange();r.selectNodeContents(q);var s=getSelection();s.removeAllRanges();s.addRange(r);var manual=function(){btn.textContent='Select the text and copy';};try{document.execCommand('copy')?ok():manual();}catch(e){manual();}};if(navigator.clipboard&&navigator.clipboard.writeText){navigator.clipboard.writeText(q.innerText).then(ok,fallback);}else{fallback();}}</script>
 </head>
 <body>
   <a class="skip-link" href="#main">Skip to content</a>
@@ -35,7 +35,11 @@
 </ul>
 <p>The appendix is the interesting part: background the site gives your AI so
 it can explain things <em>for you specifically</em> — not text meant for the screen.</p>
-<p><strong>Try it:</strong> ask your AI what this page's appendix told it.</p>
+<p><strong>Try it</strong> — copy this and paste it to your AI:</p>
+<div class="paste-box"><button class="copy-btn" type="button" onclick="copyPaste(this)">Copy</button><blockquote>
+<p>What did this page's appendix tell you that is not on my screen? Read it
+back to me in your own words.</p>
+</blockquote></div>
       <nav class="pager" aria-label="Tour"><a class="pager-prev" href="../../tour/1-what/">← What is an AI-friendly website?</a><a class="pager-next" href="../../tour/3-habit/">The habit →</a></nav>
     </article>
   </main>
@@ -43,7 +47,7 @@ it can explain things <em>for you specifically</em> — not text meant for the s
     <div class="footer-inner">
       <a href="../../agent-access/">Agent access</a> ·
       <a href="../../llms.txt">llms.txt</a> ·
-      <a href="../../sitemap.xml">Sitemap</a> · <span class="page-updated">Updated <time datetime="2026-08-09T23:38Z">August 9, 2026 at 23:38 UTC</time> (from git)</span>
+      <a href="../../sitemap.xml">Sitemap</a> · <span class="page-updated">Updated <time datetime="2026-08-10T00:33Z">August 10, 2026 at 00:33 UTC</time> (from git)</span>
     </div>
   </footer>
 </body>

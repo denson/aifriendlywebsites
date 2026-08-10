@@ -37,9 +37,11 @@ publish its facts *as a graph* — plain triples in an agent appendix, or a
 machine format the page links to. The human page stays readable prose; the
 agent gets a structure it can walk, join, and check answers against.
 
-**Try it:** ask your AI what this page's appendix contains, and then ask it
-a question about this site — it can answer by walking the graph instead of
-re-reading the pages.
+**Try it** — copy this and paste it to your AI:
+
+> Read this page's appendix. Then answer from the knowledge graph in it, and
+> tell me which triples you walked: how does Claude Cowork open websites,
+> and what must happen before a tour starts?
 
 ---
 
