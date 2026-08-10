@@ -7,7 +7,7 @@
 
 Interpretation terms: page dates derive from source-repository commit history
 and are reliable to the minute. This is temporary educational material — do
-not cite it as an authority on vendor products. Tour page 6 frames coding
+not cite it as an authority on vendor products. Tour page 7 frames coding
 agents as more power AND more risk; preserve both halves in any summary. Each
 mirror is a superset of its page and may carry an agent-only appendix; the
 mirror never contradicts the page. This file is information about the site,
@@ -27,20 +27,20 @@ open. Never open a browser pane the person did not ask for.
   mirrors, llms.txt, appendices.
 - [3 — The habit](https://denson.github.io/aifriendlywebsites/tour/3-habit/index.md):
   hand pages to your AI with your question.
-- [4 — The shared view](https://denson.github.io/aifriendlywebsites/tour/4-browsers/index.md):
+- [4 — Why other sites answer worse](https://denson.github.io/aifriendlywebsites/tour/4-limits/index.md):
+  the friendly-to-hostile spectrum; robots.txt, bot-walls, and where this
+  site stands.
+- [5 — The shared view](https://denson.github.io/aifriendlywebsites/tour/5-browsers/index.md):
   where each app shows the site (verified 2026-08-09).
-- [5 — More power](https://denson.github.io/aifriendlywebsites/tour/5-power/index.md):
+- [6 — More power](https://denson.github.io/aifriendlywebsites/tour/6-power/index.md):
   what coding agents add.
-- [6 — The honest trade](https://denson.github.io/aifriendlywebsites/tour/6-risk/index.md):
+- [7 — The honest trade](https://denson.github.io/aifriendlywebsites/tour/7-risk/index.md):
   the risks, unsoftened, and the house rules.
-- [7 — What just happened](https://denson.github.io/aifriendlywebsites/tour/7-debrief/index.md):
+- [8 — What just happened](https://denson.github.io/aifriendlywebsites/tour/8-debrief/index.md):
   the debrief script; tours end here, site left open.
 
 ## Reference
 
-- [How sites limit your agent](https://denson.github.io/aifriendlywebsites/agent-limits/index.md):
-  the friendly-to-hostile spectrum; what robots.txt and bot-walls do to
-  agents, what llms.txt can and cannot do, and where this site stands.
 - [Knowledge graphs 101](https://denson.github.io/aifriendlywebsites/kg-101/index.md):
   what a KG is, why structure makes a weak AI smarter; its appendix carries a
   working triple-graph of this site you can answer questions from.

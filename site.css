@@ -101,13 +101,13 @@ code {
 table {
   border-collapse: collapse;
   width: 100%;
-  margin: 1.25rem 0;
+  margin: 0.7rem 0;
   font-family: "Segoe UI", system-ui, sans-serif;
-  font-size: 0.95rem;
+  font-size: 0.9rem;
 }
 th, td {
   border: 1px solid var(--rule);
-  padding: 0.5rem 0.7rem;
+  padding: 0.3rem 0.6rem;
   text-align: left;
   vertical-align: top;
 }

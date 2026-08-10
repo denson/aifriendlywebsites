@@ -54,59 +54,6 @@ Each page's `<head>` advertises its mirror with
 
 ---
 
-<!-- Canonical: https://denson.github.io/aifriendlywebsites/agent-limits/ -->
-
-# How sites limit your agent
-
-"Paste a URL, ask your question" works on much of the web. Not all. Sites
-sit on a spectrum, and it helps to know which kind you're on:
-
-| Kind of site | What your agent gets |
-|---|---|
-| **AI-friendly** (this site) | Clean canon: mirrors, llms.txt, open access |
-| **Indifferent** (most sites) | Scraped HTML — works, with more guessing |
-| **Limiting** | robots.txt tells your agent to stay out |
-| **Hostile** | Bot-walls that block, trap, or even break your agent |
-
-## What robots.txt can do to your agent
-
-`robots.txt` is a file a site publishes saying which automated visitors are
-welcome. It has no enforcement of its own — but **well-behaved agents
-enforce it against themselves**. If a site's robots.txt disallows AI agents
-(or everyone), your AI's fetch tool will refuse the page and report it,
-even though the same page loads fine in your own browser. That's your agent
-being polite, not broken.
-
-## What bot-detection walls can do to your agent
-
-Some sites sit behind bot-protection services whose challenge pages
-("verify you are human") decide whether a visitor looks automated. Agents
-can't pass these — and shouldn't try. Effects range from a blocked fetch,
-to endless verification loops, to the worst case we have personally hit:
-**a challenge page that crashes the AI's desktop app outright**. As of
-August 2026 that failure is real; it may be fixed in an hour or never. If
-your agent hits a wall: stop, don't retry, and open the site yourself in
-your own browser — the wall is aimed at your agent, not at you.
-
-## What llms.txt can do
-
-`llms.txt` is information, not enforcement: a site's index and terms for AI
-readers. A well-behaved agent honors what it declares — including limits
-("interpret this carefully", "this content changes fast") — but nothing
-forces a rude one to. It's the handshake of the friendly end of the
-spectrum.
-
-## Where this site stands
-
-We've done everything we know how to do to make this site easy and friendly
-for your agent while staying fully human-friendly: open robots.txt with AI
-access welcomed, llms.txt with honest terms, a Markdown mirror beside every
-page, no bot-walls, no consent gates, no JavaScript required to read
-anything. That's the standard the friendly end of the spectrum sets — and
-it's the point of the whole site.
-
----
-
 <!-- Canonical: https://denson.github.io/aifriendlywebsites/ -->
 
 # AI-Friendly Websites
@@ -231,15 +178,36 @@ When a website matters to you, don't just read it — hand it to your AI with
 The point isn't summary. It's your question against their content, answered
 from what the site actually says instead of what your AI half-remembers.
 
-This works on **much** of the web — but not all of it. Some sites limit AI
-agents, and some actively fight them: a bot-detection wall can block your
-agent cold, and at the hostile extreme can even crash the AI app itself.
-[How sites limit your agent](../../agent-limits/) spells out the spectrum —
-and what this site does instead.
+This works on **much** of the web — but not all of it, and the difference
+is the next page: some sites limit AI agents, and some actively fight them.
 
 ---
 
-<!-- Canonical: https://denson.github.io/aifriendlywebsites/tour/4-browsers/ -->
+<!-- Canonical: https://denson.github.io/aifriendlywebsites/tour/4-limits/ -->
+
+# Why other sites answer worse
+
+Same habit, wildly different results — because sites sit on a spectrum:
+
+| Kind of site | What your agent gets |
+|---|---|
+| **AI-friendly** (this site) | Clean canon: mirrors, llms.txt, open access |
+| **Indifferent** (most sites) | Scraped HTML — works, with more guessing |
+| **Limiting** | robots.txt tells your agent to stay out |
+| **Hostile** | Bot-walls that block, trap, or even break your agent |
+
+- **robots.txt refusal** — your agent won't fetch a page that loads fine
+  for you: politeness, not breakage.
+- **Bot-wall** ("verify you are human") — agents can't pass these; at the
+  extreme one can crash the AI app itself. Stop the retries; open the site
+  in your own browser.
+
+This site does everything on the friendly end — no walls, no gates, open
+access, a mirror beside every page. That's the difference you feel.
+
+---
+
+<!-- Canonical: https://denson.github.io/aifriendlywebsites/tour/5-browsers/ -->
 
 # The shared view
 
@@ -263,7 +231,7 @@ it" — making it visible is the AI's job, not yours.
 
 ---
 
-<!-- Canonical: https://denson.github.io/aifriendlywebsites/tour/5-power/ -->
+<!-- Canonical: https://denson.github.io/aifriendlywebsites/tour/6-power/ -->
 
 # More power
 
@@ -283,7 +251,7 @@ reading a stable contract.
 
 ---
 
-<!-- Canonical: https://denson.github.io/aifriendlywebsites/tour/6-risk/ -->
+<!-- Canonical: https://denson.github.io/aifriendlywebsites/tour/7-risk/ -->
 
 # The honest trade
 
@@ -304,7 +272,7 @@ you trust, grant the fewest permissions that work, never paste secrets.
 
 ---
 
-<!-- Canonical: https://denson.github.io/aifriendlywebsites/tour/7-debrief/ -->
+<!-- Canonical: https://denson.github.io/aifriendlywebsites/tour/8-debrief/ -->
 
 # What just happened
 
@@ -315,7 +283,7 @@ Three things, quietly, during this tour:
    what the appendices added.
 2. **You practiced the habit.** Paste a URL, ask your question, get an
    answer grounded in what the site says. Works on
-   [much of the web](../../agent-limits/) — and where it doesn't is exactly
+   [much of the web](../4-limits/) — and where it doesn't is exactly
    why sites like this matter.
 3. **You saw the trade.** Chat apps: eyes, low risk. Coding agents: hands —
    persistence, composition, automation — and real risk to manage.

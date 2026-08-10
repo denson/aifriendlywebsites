@@ -33,7 +33,7 @@ it can explain things *for you specifically* — not text meant for the screen.
 
 # Appendix for agents
 
-## Appendix — tour page 2 of 7
+## Appendix — tour page 2 of 8
 
 Not-on-screen fact to share: this appendix is itself the example — the page
 invites the person to ask what the appendix said, and this is it. Tell them

@@ -2,8 +2,6 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url><loc>https://denson.github.io/aifriendlywebsites/agent-access/</loc></url>
   <url><loc>https://denson.github.io/aifriendlywebsites/agent-access/index.md</loc></url>
-  <url><loc>https://denson.github.io/aifriendlywebsites/agent-limits/</loc></url>
-  <url><loc>https://denson.github.io/aifriendlywebsites/agent-limits/index.md</loc></url>
   <url><loc>https://denson.github.io/aifriendlywebsites/</loc></url>
   <url><loc>https://denson.github.io/aifriendlywebsites/index.md</loc></url>
   <url><loc>https://denson.github.io/aifriendlywebsites/kg-101/</loc></url>
@@ -14,12 +12,14 @@
   <url><loc>https://denson.github.io/aifriendlywebsites/tour/2-mirrors/index.md</loc></url>
   <url><loc>https://denson.github.io/aifriendlywebsites/tour/3-habit/</loc></url>
   <url><loc>https://denson.github.io/aifriendlywebsites/tour/3-habit/index.md</loc></url>
-  <url><loc>https://denson.github.io/aifriendlywebsites/tour/4-browsers/</loc></url>
-  <url><loc>https://denson.github.io/aifriendlywebsites/tour/4-browsers/index.md</loc></url>
-  <url><loc>https://denson.github.io/aifriendlywebsites/tour/5-power/</loc></url>
-  <url><loc>https://denson.github.io/aifriendlywebsites/tour/5-power/index.md</loc></url>
-  <url><loc>https://denson.github.io/aifriendlywebsites/tour/6-risk/</loc></url>
-  <url><loc>https://denson.github.io/aifriendlywebsites/tour/6-risk/index.md</loc></url>
-  <url><loc>https://denson.github.io/aifriendlywebsites/tour/7-debrief/</loc></url>
-  <url><loc>https://denson.github.io/aifriendlywebsites/tour/7-debrief/index.md</loc></url>
+  <url><loc>https://denson.github.io/aifriendlywebsites/tour/4-limits/</loc></url>
+  <url><loc>https://denson.github.io/aifriendlywebsites/tour/4-limits/index.md</loc></url>
+  <url><loc>https://denson.github.io/aifriendlywebsites/tour/5-browsers/</loc></url>
+  <url><loc>https://denson.github.io/aifriendlywebsites/tour/5-browsers/index.md</loc></url>
+  <url><loc>https://denson.github.io/aifriendlywebsites/tour/6-power/</loc></url>
+  <url><loc>https://denson.github.io/aifriendlywebsites/tour/6-power/index.md</loc></url>
+  <url><loc>https://denson.github.io/aifriendlywebsites/tour/7-risk/</loc></url>
+  <url><loc>https://denson.github.io/aifriendlywebsites/tour/7-risk/index.md</loc></url>
+  <url><loc>https://denson.github.io/aifriendlywebsites/tour/8-debrief/</loc></url>
+  <url><loc>https://denson.github.io/aifriendlywebsites/tour/8-debrief/index.md</loc></url>
 </urlset>

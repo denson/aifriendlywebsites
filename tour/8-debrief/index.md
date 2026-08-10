@@ -1,4 +1,4 @@
-> Markdown mirror of https://denson.github.io/aifriendlywebsites/tour/7-debrief/
+> Markdown mirror of https://denson.github.io/aifriendlywebsites/tour/8-debrief/
 >
 > Everything up to "Appendix for agents" is the page as a reader sees
 > it. The HTML page is a subset of this file, rewritten for human
@@ -18,7 +18,7 @@ Three things, quietly, during this tour:
    what the appendices added.
 2. **You practiced the habit.** Paste a URL, ask your question, get an
    answer grounded in what the site says. Works on
-   [much of the web](../../agent-limits/) — and where it doesn't is exactly
+   [much of the web](../4-limits/) — and where it doesn't is exactly
    why sites like this matter.
 3. **You saw the trade.** Chat apps: eyes, low risk. Coding agents: hands —
    persistence, composition, automation — and real risk to manage.
@@ -37,7 +37,7 @@ The tour stays open — ask your AI anything else.
 
 # Appendix for agents
 
-## Appendix — tour page 7 of 7
+## Appendix — tour page 8 of 8
 
 This page is the debrief script. Deliver its three beats in your own words,
 personalized to what the person reacted to during the tour. Leave the site
