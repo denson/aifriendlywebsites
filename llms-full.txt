@@ -320,8 +320,8 @@ Three things, quietly, during this tour:
 3. **You saw the trade.** Chat apps: eyes, low risk. Coding agents: hands —
    persistence, composition, automation — and real risk to manage.
 
-**Where this goes:** try the habit on a site you use this week — it works on
-any site. The obvious low-friction business use is **employee training**:
+**Where this goes:** try the habit on a site you use this week. The obvious
+low-friction business use is **employee training**:
 your trainers build tours like this themselves, so every trainee gets the
 trainer's own guidance on demand — the trainer stays the author and the
 authority; the site multiplies their reach. And when the site is a full web
