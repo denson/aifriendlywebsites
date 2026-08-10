@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Knowledge graphs 101 | AI-Friendly Websites</title>
+  <meta name="description" content="The structure that can make a weak AI smarter — and how AI-friendly sites can publish one.">
+  <meta name="robots" content="index,follow,max-image-preview:large">
+  <link rel="canonical" href="https://denson.github.io/aifriendlywebsites/kg-101/">
+  <link rel="alternate" type="text/markdown" href="index.md" title="Markdown version">
+  <link rel="stylesheet" href="../site.css">
+  
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header">
+    <div class="header-inner">
+      <a class="brand" href="../">AI-Friendly Websites</a>
+      <nav aria-label="Primary"><ul><li><a href="../tour/1-what/">Start the tour</a></li><li><a href="../kg-101/">KG 101</a></li><li><a href="../agent-access/">For agents</a></li></ul></nav>
+    </div>
+  </header>
+  <main id="main">
+    <article class="page-content">
+      <h1 id="page-title">Knowledge graphs 101</h1>
+      <p class="summary">The structure that can make a weak AI smarter — and how AI-friendly sites can publish one.</p>
+      <p>A <strong>knowledge graph</strong> stores facts as connections, three parts at a time:
+<em>thing → relationship → thing</em>.</p>
+<blockquote>
+<p>This site → teaches → the mirror pattern
+A mirror → is the canon for → its page
+Claude Cowork → browses through → your Chrome</p>
+</blockquote>
+<p>Each line is one fact, small enough that a machine cannot misread it.</p>
+<h2>Why AI reads them so well</h2>
+<p>Prose makes an AI <em>infer</em> the structure — who did what, what belongs to
+what — and inference is where mistakes live. A knowledge graph hands the
+structure over finished. Following edges is easy even for a small model,
+which is the point: <strong>the graph does part of the reasoning, so a weak AI
+gets smarter just by being given one.</strong> Ambiguity goes to zero; connections
+that prose scatters across paragraphs sit one hop apart.</p>
+<h2>What this has to do with AI-friendly websites</h2>
+<p>The mirror pattern already gives your AI clean pages. A knowledge graph is
+the next rung on the same ladder: alongside the prose mirror, a site can
+publish its facts <em>as a graph</em> — plain triples in an agent appendix, or a
+machine format the page links to. The human page stays readable prose; the
+agent gets a structure it can walk, join, and check answers against.</p>
+<p><strong>Try it:</strong> ask your AI what this page's appendix contains, and then ask it
+a question about this site — it can answer by walking the graph instead of
+re-reading the pages.</p>
+      
+    </article>
+  </main>
+  <footer class="site-footer">
+    <div class="footer-inner">
+      <a href="../agent-access/">Agent access</a> ·
+      <a href="../llms.txt">llms.txt</a> ·
+      <a href="../sitemap.xml">Sitemap</a> · <span class="page-updated">Updated <time datetime="2026-08-10T00:15Z">August 10, 2026 at 00:15 UTC</time> (from git)</span>
+    </div>
+  </footer>
+</body>
+</html>

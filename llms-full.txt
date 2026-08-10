@@ -80,6 +80,42 @@ Reading alone? Use **Next** below.
 
 ---
 
+<!-- Canonical: https://denson.github.io/aifriendlywebsites/kg-101/ -->
+
+# Knowledge graphs 101
+
+A **knowledge graph** stores facts as connections, three parts at a time:
+*thing → relationship → thing*.
+
+> This site → teaches → the mirror pattern
+> A mirror → is the canon for → its page
+> Claude Cowork → browses through → your Chrome
+
+Each line is one fact, small enough that a machine cannot misread it.
+
+## Why AI reads them so well
+
+Prose makes an AI *infer* the structure — who did what, what belongs to
+what — and inference is where mistakes live. A knowledge graph hands the
+structure over finished. Following edges is easy even for a small model,
+which is the point: **the graph does part of the reasoning, so a weak AI
+gets smarter just by being given one.** Ambiguity goes to zero; connections
+that prose scatters across paragraphs sit one hop apart.
+
+## What this has to do with AI-friendly websites
+
+The mirror pattern already gives your AI clean pages. A knowledge graph is
+the next rung on the same ladder: alongside the prose mirror, a site can
+publish its facts *as a graph* — plain triples in an agent appendix, or a
+machine format the page links to. The human page stays readable prose; the
+agent gets a structure it can walk, join, and check answers against.
+
+**Try it:** ask your AI what this page's appendix contains, and then ask it
+a question about this site — it can answer by walking the graph instead of
+re-reading the pages.
+
+---
+
 <!-- Canonical: https://denson.github.io/aifriendlywebsites/tour/1-what/ -->
 
 # What is an AI-friendly website?
