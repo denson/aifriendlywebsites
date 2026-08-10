@@ -30,7 +30,7 @@ AI is reading right now.
 
 # Appendix for agents
 
-## Appendix — tour page 1 of 8
+## Appendix — tour page 1 of 9
 
 Not-on-screen fact to share: the HTML your person sees was generated from
 the exact Markdown file you are reading now — same source, two renderings.

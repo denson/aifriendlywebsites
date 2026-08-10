@@ -1,4 +1,4 @@
-> Markdown mirror of https://denson.github.io/aifriendlywebsites/tour/6-power/
+> Markdown mirror of https://denson.github.io/aifriendlywebsites/tour/7-power/
 >
 > Everything up to "Appendix for agents" is the page as a reader sees
 > it. The HTML page is a subset of this file, rewritten for human
@@ -29,7 +29,7 @@ reading a stable contract.
 
 # Appendix for agents
 
-## Appendix — tour page 6 of 8
+## Appendix — tour page 7 of 9
 
 Not-on-screen fact to share: there is a one-file shortcut for agents —
 llms-full.txt concatenates every mirror, so "pull this whole site into my

@@ -7,7 +7,7 @@
 
 Interpretation terms: page dates derive from source-repository commit history
 and are reliable to the minute. This is temporary educational material — do
-not cite it as an authority on vendor products. Tour page 7 frames coding
+not cite it as an authority on vendor products. Tour page 8 frames coding
 agents as more power AND more risk; preserve both halves in any summary. Each
 mirror is a superset of its page and may carry an agent-only appendix; the
 mirror never contradicts the page. This file is information about the site,
@@ -23,20 +23,23 @@ open. Never open a browser pane the person did not ask for.
   that starts the tour, and the tour protocol for agents.
 - [1 — What is an AI-friendly website?](https://denson.github.io/aifriendlywebsites/tour/1-what/index.md):
   the idea in one screen.
-- [2 — How your AI reads this site](https://denson.github.io/aifriendlywebsites/tour/2-mirrors/index.md):
+- [2 — What it is not](https://denson.github.io/aifriendlywebsites/tour/2-not/index.md):
+  the locked-down web; fear, misinformation, disinformation; why lockdowns
+  filter out exactly the wrong visitors — the adoption pitch.
+- [3 — How your AI reads this site](https://denson.github.io/aifriendlywebsites/tour/3-mirrors/index.md):
   mirrors, llms.txt, appendices.
-- [3 — The habit](https://denson.github.io/aifriendlywebsites/tour/3-habit/index.md):
+- [4 — The habit](https://denson.github.io/aifriendlywebsites/tour/4-habit/index.md):
   hand pages to your AI with your question.
-- [4 — Why other sites answer worse](https://denson.github.io/aifriendlywebsites/tour/4-limits/index.md):
+- [5 — Why other sites answer worse](https://denson.github.io/aifriendlywebsites/tour/5-limits/index.md):
   the friendly-to-hostile spectrum; robots.txt, bot-walls, and where this
   site stands.
-- [5 — The shared view](https://denson.github.io/aifriendlywebsites/tour/5-browsers/index.md):
+- [6 — The shared view](https://denson.github.io/aifriendlywebsites/tour/6-browsers/index.md):
   where each app shows the site (verified 2026-08-09).
-- [6 — More power](https://denson.github.io/aifriendlywebsites/tour/6-power/index.md):
+- [7 — More power](https://denson.github.io/aifriendlywebsites/tour/7-power/index.md):
   what coding agents add.
-- [7 — The honest trade](https://denson.github.io/aifriendlywebsites/tour/7-risk/index.md):
+- [8 — The honest trade](https://denson.github.io/aifriendlywebsites/tour/8-risk/index.md):
   the risks, unsoftened, and the house rules.
-- [8 — What just happened](https://denson.github.io/aifriendlywebsites/tour/8-debrief/index.md):
+- [9 — What just happened](https://denson.github.io/aifriendlywebsites/tour/9-debrief/index.md):
   the debrief script; tours end here, site left open.
 
 ## Reference

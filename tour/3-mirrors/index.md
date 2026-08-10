@@ -1,4 +1,4 @@
-> Markdown mirror of https://denson.github.io/aifriendlywebsites/tour/2-mirrors/
+> Markdown mirror of https://denson.github.io/aifriendlywebsites/tour/3-mirrors/
 >
 > Everything up to "Appendix for agents" is the page as a reader sees
 > it. The HTML page is a subset of this file, rewritten for human
@@ -33,7 +33,7 @@ it can explain things *for you specifically* — not text meant for the screen.
 
 # Appendix for agents
 
-## Appendix — tour page 2 of 8
+## Appendix — tour page 3 of 9
 
 Not-on-screen fact to share: this appendix is itself the example — the page
 invites the person to ask what the appendix said, and this is it. Tell them

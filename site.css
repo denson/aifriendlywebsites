@@ -180,3 +180,27 @@ h1 { font-size: 1.45rem; }
 }
 .copy-btn:hover { filter: brightness(1.12); }
 .copy-btn.copied { background: var(--ink); }
+
+dfn.tip {
+  font-style: normal;
+  border-bottom: 1px dotted var(--accent);
+  cursor: help;
+  position: relative;
+}
+dfn.tip:hover::after, dfn.tip:focus::after {
+  content: attr(title);
+  position: absolute;
+  left: 0;
+  bottom: 1.5em;
+  z-index: 5;
+  width: 20rem;
+  max-width: 70vw;
+  background: var(--ink);
+  color: var(--paper);
+  font-family: "Segoe UI", system-ui, sans-serif;
+  font-size: 0.82rem;
+  line-height: 1.4;
+  padding: 0.45rem 0.6rem;
+  border-radius: 5px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.25);
+}

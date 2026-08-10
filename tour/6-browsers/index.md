@@ -1,4 +1,4 @@
-> Markdown mirror of https://denson.github.io/aifriendlywebsites/tour/5-browsers/
+> Markdown mirror of https://denson.github.io/aifriendlywebsites/tour/6-browsers/
 >
 > Everything up to "Appendix for agents" is the page as a reader sees
 > it. The HTML page is a subset of this file, rewritten for human
@@ -33,7 +33,7 @@ it" — making it visible is the AI's job, not yours.
 
 # Appendix for agents
 
-## Appendix — tour page 5 of 8
+## Appendix — tour page 6 of 9
 
 Not-on-screen fact to share: these vendor details were verified by web
 search on 2026-08-09 and go stale fast. If what the person sees does not

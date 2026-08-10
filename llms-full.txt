@@ -139,7 +139,32 @@ AI is reading right now.
 
 ---
 
-<!-- Canonical: https://denson.github.io/aifriendlywebsites/tour/2-mirrors/ -->
+<!-- Canonical: https://denson.github.io/aifriendlywebsites/tour/2-not/ -->
+
+# What it is not
+
+Most of the web is **not** built this way, and it's worth understanding why
+before you see how this site works. Around AI there is real fear, plus
+plenty of
+<dfn class="tip" tabindex="0" title="False or misleading information spread without intent to deceive — an honest mistake, repeated.">misinformation</dfn>
+and
+<dfn class="tip" tabindex="0" title="Falsehood spread deliberately to deceive.">disinformation</dfn>
+— and the knee-jerk response is the **lockdown**: block every AI agent,
+even one a human is directly guiding.
+
+The lockdown backfires. The rules that govern polite AI — robots.txt, an
+internet standard with three decades of practice, and in the EU legally
+binding for AI training — are followed by exactly the agents you'd want to
+welcome. Attackers using AI ignore the rules and punch through barriers,
+which can itself be a crime. So a lockdown filters out the lawful visitors
+and barely inconveniences the rest.
+
+**AI-friendly is the alternative:** publish for both readerships, openly,
+on your own terms — which is what the rest of this tour shows you.
+
+---
+
+<!-- Canonical: https://denson.github.io/aifriendlywebsites/tour/3-mirrors/ -->
 
 # How your AI reads this site
 
@@ -163,7 +188,7 @@ it can explain things *for you specifically* — not text meant for the screen.
 
 ---
 
-<!-- Canonical: https://denson.github.io/aifriendlywebsites/tour/3-habit/ -->
+<!-- Canonical: https://denson.github.io/aifriendlywebsites/tour/4-habit/ -->
 
 # The habit
 
@@ -183,7 +208,7 @@ is the next page: some sites limit AI agents, and some actively fight them.
 
 ---
 
-<!-- Canonical: https://denson.github.io/aifriendlywebsites/tour/4-limits/ -->
+<!-- Canonical: https://denson.github.io/aifriendlywebsites/tour/5-limits/ -->
 
 # Why other sites answer worse
 
@@ -207,7 +232,7 @@ access, a mirror beside every page. That's the difference you feel.
 
 ---
 
-<!-- Canonical: https://denson.github.io/aifriendlywebsites/tour/5-browsers/ -->
+<!-- Canonical: https://denson.github.io/aifriendlywebsites/tour/6-browsers/ -->
 
 # The shared view
 
@@ -231,7 +256,7 @@ it" — making it visible is the AI's job, not yours.
 
 ---
 
-<!-- Canonical: https://denson.github.io/aifriendlywebsites/tour/6-power/ -->
+<!-- Canonical: https://denson.github.io/aifriendlywebsites/tour/7-power/ -->
 
 # More power
 
@@ -251,7 +276,7 @@ reading a stable contract.
 
 ---
 
-<!-- Canonical: https://denson.github.io/aifriendlywebsites/tour/7-risk/ -->
+<!-- Canonical: https://denson.github.io/aifriendlywebsites/tour/8-risk/ -->
 
 # The honest trade
 
@@ -272,7 +297,7 @@ you trust, grant the fewest permissions that work, never paste secrets.
 
 ---
 
-<!-- Canonical: https://denson.github.io/aifriendlywebsites/tour/8-debrief/ -->
+<!-- Canonical: https://denson.github.io/aifriendlywebsites/tour/9-debrief/ -->
 
 # What just happened
 
@@ -283,7 +308,7 @@ Three things, quietly, during this tour:
    what the appendices added.
 2. **You practiced the habit.** Paste a URL, ask your question, get an
    answer grounded in what the site says. Works on
-   [much of the web](../4-limits/) — and where it doesn't is exactly
+   [much of the web](../5-limits/) — and where it doesn't is exactly
    why sites like this matter.
 3. **You saw the trade.** Chat apps: eyes, low risk. Coding agents: hands —
    persistence, composition, automation — and real risk to manage.

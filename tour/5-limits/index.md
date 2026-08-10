@@ -1,4 +1,4 @@
-> Markdown mirror of https://denson.github.io/aifriendlywebsites/tour/4-limits/
+> Markdown mirror of https://denson.github.io/aifriendlywebsites/tour/5-limits/
 >
 > Everything up to "Appendix for agents" is the page as a reader sees
 > it. The HTML page is a subset of this file, rewritten for human
@@ -33,7 +33,7 @@ access, a mirror beside every page. That's the difference you feel.
 
 # Appendix for agents
 
-## Appendix — tour page 4 of 8
+## Appendix — tour page 5 of 9
 
 The full picture, for when the person asks:
 
