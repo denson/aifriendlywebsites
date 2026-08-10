@@ -19,13 +19,14 @@ of **August 9, 2026**:
   happen, look for a tab named after this site.
 - **Claude Code desktop** — a true in-app pane (Ctrl+Shift+B / Cmd+Shift+B),
   sandboxed, approvals on consequential actions.
-- **ChatGPT desktop** — choose **Work** next to Chat; it browses in its own
-  agent view, plan shown first.
+- **ChatGPT desktop (Work)** — may drive your Chrome too, with the same
+  hidden-tab catch; its reliably visible surface is the **Codex right-hand
+  pane**. If you can't see the page, say so — your AI can move it there.
 - **Plain chat apps** — no visible browsing; your AI reads pages invisibly.
   Fine for everything this site teaches.
 
-Best arrangement: this site on a second monitor, or side by side with your
-chat window.
+If you ever can't see what your AI says it opened, just say "I can't see
+it" — making it visible is the AI's job, not yours.
 
 ---
 

@@ -71,7 +71,7 @@ body {
 main {
   max-width: var(--max);
   margin: 0 auto;
-  padding: 0.9rem 1.25rem 1.2rem;
+  padding: 0.8rem 1.25rem 0.7rem;
 }
 
 h1 { font-size: 2rem; line-height: 1.2; margin: 0 0 0.3rem; }
@@ -83,8 +83,8 @@ a { color: var(--accent); }
 blockquote {
   margin: 0.8rem 0;
   padding: 0.55rem 0.9rem;
-  font-size: 0.9rem;
-  line-height: 1.45;
+  font-size: 0.87rem;
+  line-height: 1.4;
   background: var(--panel);
   border-left: 4px solid var(--accent);
   font-style: normal;
@@ -145,8 +145,8 @@ th { background: var(--panel); }
   display: flex;
   justify-content: space-between;
   gap: 1rem;
-  margin-top: 1.1rem;
-  padding-top: 0.6rem;
+  margin-top: 0.8rem;
+  padding-top: 0.5rem;
   border-top: 1px solid var(--rule);
   font-family: "Segoe UI", system-ui, sans-serif;
 }
@@ -154,7 +154,8 @@ th { background: var(--panel); }
 .pager a:hover { text-decoration: underline; }
 .pager-slot { flex: 1; }
 main { padding-top: 0.9rem; }
-main p, main ul { margin: 0.55rem 0; }
+main p, main ul, main ol { margin: 0.55rem 0; padding-left: 1.4rem; }
+main p { padding-left: 0; }
 main li { margin: 0.2rem 0; }
 h1 { font-size: 1.45rem; }
 .footer-inner { padding: 0.9rem 1.25rem 1.1rem; }
@@ -162,7 +163,7 @@ h1 { font-size: 1.45rem; }
 .page-updated { margin: 0.3rem 0 0; }
 
 .paste-box { position: relative; }
-.paste-box blockquote { padding-right: 4.4rem; }
+.paste-box blockquote { padding-right: 4.4rem; margin: 0.5rem 0; }
 .copy-btn {
   position: absolute;
   top: 0.45rem;

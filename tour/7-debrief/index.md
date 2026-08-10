@@ -24,14 +24,13 @@ Three things, quietly, during this tour:
 
 **Where this goes:** try the habit on a site you use this week — it works on
 any site. The obvious low-friction business use is **employee training**:
-your trainers build tours like this one themselves, and then every trainee
-gets the trainer's own guidance, on demand, as often as they need it. The
-trainer stays the author and the authority — the site multiplies their
-reach. And when the site is a full web app wired to real databases, the same
-pattern becomes a **force multiplier** — your AI isn't just reading pages
-anymore, it's working the system with you.
+your trainers build tours like this themselves, so every trainee gets the
+trainer's own guidance on demand — the trainer stays the author and the
+authority; the site multiplies their reach. And when the site is a full web
+app wired to real databases, the pattern becomes a **force multiplier** —
+your AI isn't just reading pages, it's working the system with you.
 
-This tour stays open — ask your AI anything you're still wondering about.
+The tour stays open — ask your AI anything else.
 
 ---
 

@@ -58,17 +58,17 @@ Each page's `<head>` advertises its mirror with
 
 # AI-Friendly Websites
 
-This is a short guided tour, one screen per page. Your AI walks you through
-it; you watch, ask questions, and move on when ready.
-
+A guided tour, one screen per page — your AI walks, you watch and ask.
 **To start**, paste this into Claude or ChatGPT:
 
-> Read https://denson.github.io/aifriendlywebsites/ and its llms.txt. If you
-> can open the site in a browser I can see — an in-app pane, or my own
-> browser through an extension you drive — open it, bring the tab to the
-> front if you can (otherwise tell me where to look: the tab is titled
-> "AI-Friendly Websites"), and suggest a second monitor or side-by-side with
-> this chat. Then take me through the tour ONE PAGE AT A TIME using each
+> Read https://denson.github.io/aifriendlywebsites/ and its llms.txt. Open
+> the site where I can see it — PREFER your app's own visible pane if you
+> have one; only drive my external browser if you don't. Then run a
+> visibility check before anything else: tell me what should be on my screen
+> and wait for me to confirm I can see it. If I can't, fix that first —
+> front the tab (it's titled "AI-Friendly Websites"), or move the page into
+> your own pane. Suggest a second monitor or side-by-side with this chat.
+> Once I confirm, take me through the tour ONE PAGE AT A TIME using each
 > page's Next link: for each page, show it, explain its point in a couple of
 > sentences, tell me anything its markdown mirror told you that is not on my
 > screen, and check that I'm ready before moving on. If you can't open a
@@ -76,7 +76,7 @@ it; you watch, ask questions, and move on when ready.
 > need — and tour me from the mirrors meanwhile. Finish on the last tour
 > page, leave it open, and give me the debrief it describes.
 
-Prefer reading alone? Use the **Next** link below.
+Reading alone? Use **Next** below.
 
 ---
 
@@ -151,13 +151,14 @@ of **August 9, 2026**:
   happen, look for a tab named after this site.
 - **Claude Code desktop** — a true in-app pane (Ctrl+Shift+B / Cmd+Shift+B),
   sandboxed, approvals on consequential actions.
-- **ChatGPT desktop** — choose **Work** next to Chat; it browses in its own
-  agent view, plan shown first.
+- **ChatGPT desktop (Work)** — may drive your Chrome too, with the same
+  hidden-tab catch; its reliably visible surface is the **Codex right-hand
+  pane**. If you can't see the page, say so — your AI can move it there.
 - **Plain chat apps** — no visible browsing; your AI reads pages invisibly.
   Fine for everything this site teaches.
 
-Best arrangement: this site on a second monitor, or side by side with your
-chat window.
+If you ever can't see what your AI says it opened, just say "I can't see
+it" — making it visible is the AI's job, not yours.
 
 ---
 
@@ -219,11 +220,10 @@ Three things, quietly, during this tour:
 
 **Where this goes:** try the habit on a site you use this week — it works on
 any site. The obvious low-friction business use is **employee training**:
-your trainers build tours like this one themselves, and then every trainee
-gets the trainer's own guidance, on demand, as often as they need it. The
-trainer stays the author and the authority — the site multiplies their
-reach. And when the site is a full web app wired to real databases, the same
-pattern becomes a **force multiplier** — your AI isn't just reading pages
-anymore, it's working the system with you.
+your trainers build tours like this themselves, so every trainee gets the
+trainer's own guidance on demand — the trainer stays the author and the
+authority; the site multiplies their reach. And when the site is a full web
+app wired to real databases, the pattern becomes a **force multiplier** —
+your AI isn't just reading pages, it's working the system with you.
 
-This tour stays open — ask your AI anything you're still wondering about.
+The tour stays open — ask your AI anything else.
