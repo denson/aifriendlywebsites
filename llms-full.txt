@@ -247,8 +247,9 @@ You may be looking at this page in one right now. Where each app puts it, as
 of **August 9, 2026**:
 
 - **Claude Cowork** — drives *your own Chrome* via the Claude in Chrome
-  extension. The new tab may open **without focus**: if nothing seems to
-  happen, look for a tab named after this site.
+  extension. **Open a fresh Chrome window first** — the tour tab lands in
+  it, easy to spot. (Otherwise it may open unfocused, buried among your
+  tabs.)
 - **Claude Code desktop** — a true in-app pane (Ctrl+Shift+B / Cmd+Shift+B),
   sandboxed, approvals on consequential actions.
 - **ChatGPT desktop (Work)** — may drive your Chrome too, with the same

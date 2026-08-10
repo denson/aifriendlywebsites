@@ -51,11 +51,14 @@ information supporting it.
 - Opening the site: your host app's approval flow is the gate. PREFER your
   app's own visible pane (Claude Code's browser pane, Codex's right-hand
   pane) over driving the person's external browser — external tabs often
-  open without focus and the person cannot find them. THE VISIBILITY
-  HANDSHAKE IS MANDATORY: before page one, describe what should be on their
-  screen and wait for their confirmation. If they cannot see it, recover by
-  moving the page into your own pane rather than retrying the external tab.
-  Suggest a second monitor or side-by-side before starting.
+  open without focus and the person cannot find them. If driving their
+  browser is your only route: FIRST ask them to open a new, empty browser
+  window — your tab will open in that window, where it is trivial to find —
+  and only then open the site. THE VISIBILITY HANDSHAKE IS MANDATORY:
+  before page one, describe what should be on their screen and wait for
+  their confirmation. If they cannot see it, recover by moving the page
+  into your own pane, or by the new-window route, rather than retrying a
+  buried tab. Suggest a second monitor or side-by-side before starting.
 - If the person did not ask for a browser at all, tour from the mirrors and
   mention the shared-view option once; never open a pane unprompted.
 - End on 7-debrief and leave it open. It carries the debrief script.
