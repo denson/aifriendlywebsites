@@ -242,25 +242,27 @@ access, a mirror beside every page. That's the difference you feel.
 
 # The shared view
 
-Where each app puts the page, as of **August 9, 2026**:
+Where each app puts the page, as of **August 9, 2026** (this moves
+weekly):
 
 - **Claude Cowork** — **no in-app browser this week**; it drives *your own
   Chrome* via the Claude in Chrome extension instead. **Open a fresh Chrome
-  window first** — the tour tab lands in it, easy to spot. (Its OpenAI
-  equivalent already has a pane, so expect this to change.)
+  window first** — the tour tab lands in it, easy to spot.
 - **ChatGPT Work & OpenAI Codex** — share the same **in-app browser** (the
-  right-hand pane) and can also drive your external browser, with the same
-  buried-tab catch. Can't see the page? Say so — your AI can move it into
-  the pane.
+  right-hand pane); both can also drive your external browser, same
+  buried-tab catch.
 - **Claude Code desktop** — a true in-app pane (**Ctrl+Shift+B** /
   Cmd+Shift+B), sandboxed, approvals on consequential actions.
-- **Plain chat apps** — no visible browsing; your AI reads pages invisibly.
-  Fine for everything this site teaches.
+- **Plain chat apps** — no visible browsing; your AI reads invisibly.
+  Fine for everything here.
 
-The best seat is always the **in-app browser** — ask for it first. Today's
-trade: **Cowork offers the most guardrails; Claude Code desktop and OpenAI
-Codex the most capabilities** — the trade the next two pages cover. This
-page is dated because these details move weekly.
+The best seat is always the **in-app browser** — ask for it first. From
+our testing: **best today is OpenAI Codex desktop**, with **Claude Code
+desktop nearly identical**. **Work** matches Codex on simple sites, worse
+in some circumstances. **Cowork** is substantially worse for now: a second
+app plus window juggling. Stepping up to Code or Codex trades **slightly
+more guardrails for substantially more capability** — and it needs the
+desktop apps.
 
 ---
 
