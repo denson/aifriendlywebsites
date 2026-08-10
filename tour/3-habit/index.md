@@ -22,8 +22,11 @@ When a website matters to you, don't just read it — hand it to your AI with
 The point isn't summary. It's your question against their content, answered
 from what the site actually says instead of what your AI half-remembers.
 
-This works on **every** website. AI-friendly sites just answer better,
-because your AI reads their canon instead of scraping their layout.
+This works on **much** of the web — but not all of it. Some sites limit AI
+agents, and some actively fight them: a bot-detection wall can block your
+agent cold, and at the hostile extreme can even crash the AI app itself.
+[How sites limit your agent](../../agent-limits/) spells out the spectrum —
+and what this site does instead.
 
 ---
 

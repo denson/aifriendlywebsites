@@ -38,6 +38,9 @@ open. Never open a browser pane the person did not ask for.
 
 ## Reference
 
+- [How sites limit your agent](https://denson.github.io/aifriendlywebsites/agent-limits/index.md):
+  the friendly-to-hostile spectrum; what robots.txt and bot-walls do to
+  agents, what llms.txt can and cannot do, and where this site stands.
 - [Knowledge graphs 101](https://denson.github.io/aifriendlywebsites/kg-101/index.md):
   what a KG is, why structure makes a weak AI smarter; its appendix carries a
   working triple-graph of this site you can answer questions from.
